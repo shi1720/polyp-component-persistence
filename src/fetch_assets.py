@@ -32,9 +32,11 @@ if __name__=='__main__':
     for name in ['pvt.py','pvtv2.py']:
         download(f'https://raw.githubusercontent.com/DengPingFan/Polyp-PVT/{pvt_rev}/lib/{name}',pvt/name)
     source=pvt/'pvt.py';s=source.read_text()
-    start=s.index("        path = './pretrained_pth/pvt_v2_b2.pth'")
-    end=s.index('\n',s.index('self.backbone.load_state_dict(model_dict)',start))
-    source.write_text(s[:start]+s[end:])
+    marker="        path = './pretrained_pth/pvt_v2_b2.pth'"
+    if marker in s:
+        start=s.index(marker)
+        end=s.index('\n',s.index('self.backbone.load_state_dict(model_dict)',start))
+        source.write_text(s[:start]+s[end:])
     import gdown
     checkpoint=ROOT/'PolypPVT.pth'
     if not checkpoint.exists():gdown.download(id='1l60Nzd2EQNZWbMHkvItDUUUp6KTlD0vt',output=str(checkpoint),quiet=False)

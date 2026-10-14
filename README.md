@@ -63,3 +63,7 @@ For the transformer replication:
 ```
 
 The Polyp-PVT loader omits only the redundant initialization checkpoint load before the full checkpoint is strictly loaded. Its adaptive-average-pooling operation runs on CPU when MPS is selected; this preserves the mathematical operation and is checked against complete CPU inference for the first three images.
+
+## Regenerate the report text
+
+From the repository root, `python src/report_primary.py`, `python src/report_secondary.py`, and `python src/report_repro.py` regenerate the tables and supporting report text from recorded results. `python src/conference_abstract.py` regenerates the 226-word IMKASID abstract. Keep the narrative review and final PDF build under author review after regenerating any result files.
