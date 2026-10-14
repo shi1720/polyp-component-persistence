@@ -1,0 +1,41 @@
+Literature and contribution audit (14 October 2026)
+
+Scope: targeted primary-source review, not a systematic review or proof that no prior work exists. Queries included polyp conformal segmentation, largest connected component conformal, connected component postprocessing calibration, monotone morphology, non-monotonic conformal risk, and instance segmentation confidence sets. Search-engine indexing and unpublished work limit priority claims.
+
+Direct antecedents
+1. Angelopoulos AN, Bates S, Fisch A, Lei L, Schuster T. Conformal Risk Control. ICLR 2024. https://arxiv.org/abs/2208.02814
+Read original PDF, especially Section 2.4 and Corollary 1. This ALREADY provides the per-example suffix supremum for nonmonotone losses. It also evaluates polyp segmentation. Our envelope baseline must be explicitly attributed to this corollary; it is not a new method.
+2. Luo R, Zhou Z. Conditional Conformal Risk Adaptation. 2025. https://arxiv.org/abs/2504.07611
+Addresses heterogeneous per-image risk and adaptive segmentation. Avoid claiming that image heterogeneity or adaptive polyp calibration is new.
+3. Blot V et al. Automatically Adaptive Conformal Risk Control. AISTATS 2025. https://proceedings.mlr.press/v258/blot25a.html
+Adaptive risk control already applied to polyps. No claim of inventing adaptive CRC.
+4. Yeh C, Christianson N, Wierman A, Yue Y. Conformal Risk Training. NeurIPS 2025. https://arxiv.org/abs/2510.08748
+Provides processed PraNet benchmark with corrected masks and original pretrained checkpoint. We use its data release, not its trained conformal models. Its notebook acknowledges test duplicates and omits CVC-300 because it duplicates ColonDB. We remove exact decoded-image repeats, with train priority. https://github.com/chrisyeh96/conformal-risk-training
+5. Mossina L, Friedrich C. Conformal Prediction for Image Segmentation Using Morphological Prediction Sets. 2025. https://arxiv.org/abs/2503.05618
+Morphological calibration and binary outer masks already established. No new general morphology claim.
+6. Mossina L, Friedrich C. Controlling False Positives in Image Segmentation via Conformal Prediction. 2025. https://arxiv.org/abs/2511.15406
+Shrinks masks with nested score/erosion families and distinguishes original-area normalization from false discovery proportion. Our outcome is missed annotated area, not their accepted false-positive measure.
+7. Angelopoulos AN. Conformal Risk Control for Non-Monotonic Losses. 2026. https://arxiv.org/abs/2602.20151
+Generic nonmonotone risks and stability are already addressed. Our paper cannot claim nonmonotonicity itself invalidates all possible guarantees; it removes the standard monotone CRC justification. Original CRC Corollary 1 is sufficient for the conservative baseline here.
+8. Lu K, Kluger DM, Bates S, Wang S. Conformal Prediction Sets for Instance Segmentation. 2026. https://arxiv.org/abs/2602.10045
+Read paper and Appendix H.1. It already explicitly preserves nestedness after duplicate-mask removal in its CRC baseline. That is an important conceptual antecedent. It outputs a set of alternative masks for a queried instance, whereas this audit studies a single binary polyp mask and largest-component pixel deletion.
+
+Segmentation and morphology
+9. Fan DP et al. PraNet: Parallel Reverse Attention Network for Polyp Segmentation. MICCAI 2020. https://arxiv.org/abs/2006.11392
+Published fixed model used here. Its original code is restricted to research/education; commercial use requires permission.
+10. Dijkstra W, Sobiecki A, Bernal J, Telea AC. Towards a Single Solution for Polyp Detection, Localization and Segmentation in Colonoscopy Images. VISIGRAPP 2019. DOI 10.5220/0007694906160625. https://www.scitepress.org/Papers/2019/76949/76949.pdf
+Explicitly evaluates largest-component postprocessing. LCC cleanup is not our invention and has real polyp-segmentation precedent.
+11. Salembier P, Oliveras A, Garrido L. Antiextensive Connected Operators for Image and Sequence Processing. IEEE TIP 7(4):555-570, 1998. DOI 10.1109/83.663500. https://upcommons.upc.edu/bitstream/2117/90134/1/UPC1.pdf
+Connected filters and component trees are established. Area opening and fixed-marker connected reconstruction are controls, not proposed innovations.
+12. Jha D et al. Kvasir-SEG. MMM 2020. https://arxiv.org/abs/1911.07069; https://datasets.simula.no/kvasir-seg/
+Dataset requires research/education use; commercial use requires written permission. Not redistributing images.
+
+Commercial context (desk research, no customer interviews)
+GI Genius has an FDA classification as a gastrointestinal lesion detection system: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=DEN200055
+This establishes an existing endoscopy AI product category, not that our code is clinically validated or that GI Genius uses our tested cleanup. Potential application is a validation library for segmentation product pipelines. No market-size, patentability, or willingness-to-pay claim is supported.
+
+Prior-author overlap review
+Read first two pages of all top-level PDFs in the supplied research folder and the available PAPER_INDEX.csv. Closest prior manuscript: Same Image, Different Coverage (batch-dependent classifier calibration). CARA-MIC concerns censored antimicrobial records. No supplied manuscript studied polyp-mask component cleanup. Our audit uses a different intervention, data, output, mechanism, and estimand. Broad interest in calibration and pipeline guarantees overlaps conceptually; do not claim total conceptual separation.
+
+Defensible contribution
+A controlled empirical audit of how largest-component cleanup changes calibrated polyp-mask recall; explicit distinction between deletion at a fixed calibrated threshold and nonnested threshold paths; comparison of existing loss-envelope calibration, a minimal running-union completion, and standard increasing connected filters. Mathematical statements are elementary supporting facts and applications of existing CRC, not a new general uncertainty theorem. No claim of first-ever morphology-aware calibration, unconditional clinical safety, or exhaustive novelty certification.

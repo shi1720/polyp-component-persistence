@@ -1,0 +1,5801 @@
+{
+  "train_unique": 1450,
+  "images": [
+    {
+      "id": 0,
+      "dataset": "CVC-ClinicDB",
+      "file": "100.png",
+      "sha256": "8a893b4c993ccb41a0d6491a260888ad3b1fab8a44d2d3951bc82a2f23d0103a",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 1,
+      "dataset": "CVC-ClinicDB",
+      "file": "106.png",
+      "sha256": "398ca2d67ce617a7c3a9e314a77dc0d8e6a30d86721600eed988aec295c2b0c6",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 2,
+      "dataset": "CVC-ClinicDB",
+      "file": "119.png",
+      "sha256": "1ef3e07421bd6383f574ab7c023e7b46e79d02f64896d689ab7b5c9ddc21343f",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 3,
+      "dataset": "CVC-ClinicDB",
+      "file": "134.png",
+      "sha256": "a2769184e9aad6870c76866a61f3c9aac0b08e1c0a9469c4dfe437decdfd18ff",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 4,
+      "dataset": "CVC-ClinicDB",
+      "file": "14.png",
+      "sha256": "399d80a396ec4708e8a1d7c9ed6634aa8ac82280587596df5f2116ce6f68e004",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 5,
+      "dataset": "CVC-ClinicDB",
+      "file": "148.png",
+      "sha256": "ce876e17d0ced529adbbf556782076131bdc6027fd647b0cedd27c6d13263b5a",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 6,
+      "dataset": "CVC-ClinicDB",
+      "file": "154.png",
+      "sha256": "60dcd0bfe5d1c67596473ec7744dd97cba2fccbdb9c133f68656bc37a611108d",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 7,
+      "dataset": "CVC-ClinicDB",
+      "file": "163.png",
+      "sha256": "e1d391635b426943459bab10a31f598d5438abd3f969de8e3d708501a462a74a",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 8,
+      "dataset": "CVC-ClinicDB",
+      "file": "166.png",
+      "sha256": "49b584b3ccb9aff55ea19ecd2951097fddfcd1dd6804998267898b3dd2bd8633",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 9,
+      "dataset": "CVC-ClinicDB",
+      "file": "171.png",
+      "sha256": "46d337d2067a87c75375d07aa3af166425e930ee41e9ec4ad32ca24e004691cc",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 10,
+      "dataset": "CVC-ClinicDB",
+      "file": "179.png",
+      "sha256": "7434539b3239cbc2fd3b4257d95c5c52ffed7695a772a5f7801c771585ddefa7",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 11,
+      "dataset": "CVC-ClinicDB",
+      "file": "181.png",
+      "sha256": "d45694b48ba5879b5391eeeee50b8fcea0b437c9c6fe328fc0df3a7a6ba01b4e",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 12,
+      "dataset": "CVC-ClinicDB",
+      "file": "185.png",
+      "sha256": "26b6d0468d4ae606f4e4b46dc9332845c03d326b9b203cb1396fb71dac933a9d",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 13,
+      "dataset": "CVC-ClinicDB",
+      "file": "191.png",
+      "sha256": "516ad2a83b1ba4344ed642be6961716237b1e9f5bd950a6e63bc658ea28eb4ef",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 14,
+      "dataset": "CVC-ClinicDB",
+      "file": "205.png",
+      "sha256": "61af78f48fa8713e8fe18a0ea262bf6bb7e9a68262042b1ca92cd30226b087f2",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 15,
+      "dataset": "CVC-ClinicDB",
+      "file": "21.png",
+      "sha256": "4571003397748cf4c93368806c427b655dd5cc15733f2f5f74ef325de7b350eb",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 16,
+      "dataset": "CVC-ClinicDB",
+      "file": "240.png",
+      "sha256": "053eb6a8b4294347e3a67e3f5f439944cf7d9a7b4278f9fd976f02972a985d4a",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 17,
+      "dataset": "CVC-ClinicDB",
+      "file": "25.png",
+      "sha256": "a64bc24e0a9d79a53a3b600068aab44c616e96ac56d2817937e536a9ca8f924b",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 18,
+      "dataset": "CVC-ClinicDB",
+      "file": "251.png",
+      "sha256": "316766f255bc9baab388c1ae8d4f038d8963eed2f53074f486e23d97025161b4",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 19,
+      "dataset": "CVC-ClinicDB",
+      "file": "266.png",
+      "sha256": "dd3970b47de8037a619ce92c7d515a682641cf0741c9ac72e8e820e7396a9fb9",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 20,
+      "dataset": "CVC-ClinicDB",
+      "file": "279.png",
+      "sha256": "2c14ca75e9bde60738585aa1ef4277cb98d5ea6842cbae2d2d4c556b2e24624c",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 21,
+      "dataset": "CVC-ClinicDB",
+      "file": "287.png",
+      "sha256": "9d5c2744f2762e3a0fdfdee1c349d18e9d2002b9a5b092896fe90887b3f8e72c",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 22,
+      "dataset": "CVC-ClinicDB",
+      "file": "300.png",
+      "sha256": "a1274c790349f96e86687d4594deb611b41ce1c952310b41d8e987f2838de8e2",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 23,
+      "dataset": "CVC-ClinicDB",
+      "file": "307.png",
+      "sha256": "267d911f99b9c6abe25433fbdd8445e7195e7d61e9df68c365a40b9c8f66210e",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 24,
+      "dataset": "CVC-ClinicDB",
+      "file": "31.png",
+      "sha256": "2954f0960b09e3188c350a03bdd3b9e4726eb9c52a5d42dbc88b2a174202a69a",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 25,
+      "dataset": "CVC-ClinicDB",
+      "file": "349.png",
+      "sha256": "200155ff92e0dd33963e0670ecc2afe2424e526578dede531c126be66867199c",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 26,
+      "dataset": "CVC-ClinicDB",
+      "file": "353.png",
+      "sha256": "1d6f7ffd0f1b59be9f23fc336a43b23e1eee0dd0c7b886bfb497682d64ac141b",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 27,
+      "dataset": "CVC-ClinicDB",
+      "file": "374.png",
+      "sha256": "82e692741b4b249085b33129a69f520876bbd668e6824efb359886ee9b16c73f",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 28,
+      "dataset": "CVC-ClinicDB",
+      "file": "381.png",
+      "sha256": "c55e7c555a29f365501cd83126d2eff94a3f5beff8e8334b3bbdf731f0ad56c4",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 29,
+      "dataset": "CVC-ClinicDB",
+      "file": "388.png",
+      "sha256": "87e0e40b74c4daccd595e511942d774210c70de156c037ec400094436d1f0c53",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 30,
+      "dataset": "CVC-ClinicDB",
+      "file": "397.png",
+      "sha256": "97dd3f02d6e20a4e440add0fd0e99b9f12e301d4d6b0c612587ebb0a33d5e9d8",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 31,
+      "dataset": "CVC-ClinicDB",
+      "file": "400.png",
+      "sha256": "90294e782c4002c6d9b83690507be747910a49f79df192022aebc6b5c1d08e4f",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 32,
+      "dataset": "CVC-ClinicDB",
+      "file": "404.png",
+      "sha256": "f1d51377687a82525bd944521f115aaca4e2458e324dc1e1a1dee39b2e886875",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 33,
+      "dataset": "CVC-ClinicDB",
+      "file": "42.png",
+      "sha256": "1db3d5d7a8ca0866f7767710078c249931eeedffad9df5a665e8febd06c780c6",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 34,
+      "dataset": "CVC-ClinicDB",
+      "file": "425.png",
+      "sha256": "c55582146bedfcf5aaacf6fec291718ddf4c2ea1215c17ec03fcad8bd9d3f022",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 35,
+      "dataset": "CVC-ClinicDB",
+      "file": "429.png",
+      "sha256": "de953c956625241480885db9af9cf783ee81e3edb4ed2a52b8990f2086295c08",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 36,
+      "dataset": "CVC-ClinicDB",
+      "file": "431.png",
+      "sha256": "920ab3770576236dbff0f20c692b18b3e32e8c469399f9df2b8a6ab9699a40f0",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 37,
+      "dataset": "CVC-ClinicDB",
+      "file": "442.png",
+      "sha256": "7c585a974d61152c2f676b3bdbf12e322b5674c8c33b546c14c8714d536298df",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 38,
+      "dataset": "CVC-ClinicDB",
+      "file": "453.png",
+      "sha256": "37d97473a9f680e6c4494dd7f41bd4fff9fa43b31d1b94b4ddfe0511e6f34e3c",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 39,
+      "dataset": "CVC-ClinicDB",
+      "file": "459.png",
+      "sha256": "8dda857451d15b2added322cc0b9299031b873cf63af7a199dc9035f7242eeea",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 40,
+      "dataset": "CVC-ClinicDB",
+      "file": "464.png",
+      "sha256": "5319ae11dcdaeadfa5f6407755dd2cbc3f20211aa98b6a3257c86a95e9783ba7",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 41,
+      "dataset": "CVC-ClinicDB",
+      "file": "474.png",
+      "sha256": "52c9754162d9b03b0a8314552304319bc4b0efc5e16170f8d4aff12ae69f816b",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 42,
+      "dataset": "CVC-ClinicDB",
+      "file": "481.png",
+      "sha256": "34036fbef5a5ed874ed635240ef0b1b419a185fc91ceb9f47f0b4e9fc917d336",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 43,
+      "dataset": "CVC-ClinicDB",
+      "file": "483.png",
+      "sha256": "89aa3b49fc8a99043b8b9509bb7996247d9aa2d9b248c46c1b045e5a0be85988",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 44,
+      "dataset": "CVC-ClinicDB",
+      "file": "492.png",
+      "sha256": "61df8a28d4d5b2bc85475570356ffb7d3126a5d8cae2c7992425d3e910e925e9",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 45,
+      "dataset": "CVC-ClinicDB",
+      "file": "50.png",
+      "sha256": "abaa046f46dcf2ff661e8db51c49704c8128b4dc11e539260a1d85a76f6d3d01",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 46,
+      "dataset": "CVC-ClinicDB",
+      "file": "52.png",
+      "sha256": "7468fb768b28e067d5197616658b3ac6bac987bf02f287008431c0cf4bf26436",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 47,
+      "dataset": "CVC-ClinicDB",
+      "file": "526.png",
+      "sha256": "1bd97ac488881c8b72c741012d17bca237d49e4e87fb1fd3c82f17115c8f84b8",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 48,
+      "dataset": "CVC-ClinicDB",
+      "file": "529.png",
+      "sha256": "a761d5ef1be07079d03021390c34dfd2aae4e7b14ac701ef7834c149778d3d60",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 49,
+      "dataset": "CVC-ClinicDB",
+      "file": "545.png",
+      "sha256": "2000718a4a4b28a3688aa7a86df9285f54f120c9d2c6659a4874014946e95daf",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 50,
+      "dataset": "CVC-ClinicDB",
+      "file": "555.png",
+      "sha256": "9c7fbc88bbed2e56f4a810373a186631e37729176119207aedfbc467504cbe36",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 51,
+      "dataset": "CVC-ClinicDB",
+      "file": "559.png",
+      "sha256": "d0c75005336d1c2bbcc1220a46c9fd5b8a89e555c49829b4967f60f4dfd32d02",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 52,
+      "dataset": "CVC-ClinicDB",
+      "file": "561.png",
+      "sha256": "77a8e5da3a53d2f14fcfa6c93a62bbf33a0b06c418ce2bca561215bfacf72f86",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 53,
+      "dataset": "CVC-ClinicDB",
+      "file": "569.png",
+      "sha256": "c6d9c59da9d9df3d4be5c5ce1d33548e1fc24412518761bb23e581810b01c304",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 54,
+      "dataset": "CVC-ClinicDB",
+      "file": "571.png",
+      "sha256": "b2355942dbd641ca86b4765b7ed532c82c5f911f4cd63aaca6cfeb52ea19e234",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 55,
+      "dataset": "CVC-ClinicDB",
+      "file": "575.png",
+      "sha256": "5633c352211433acae531e9b6df3958ec3aae3ea4d55d012049877d31f2b52a9",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 56,
+      "dataset": "CVC-ClinicDB",
+      "file": "61.png",
+      "sha256": "cc5f6dfdf0267adc264ced25c9ab13d152c08197f56254a653ea50ddcf37be85",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 57,
+      "dataset": "CVC-ClinicDB",
+      "file": "65.png",
+      "sha256": "5e17f1800bab03c7e7fe821295b9fa3afb7a07202bf3b0338545dd945d5b0e0a",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 58,
+      "dataset": "CVC-ClinicDB",
+      "file": "66.png",
+      "sha256": "d5cc65022c6bb056f5182015b1c6a08c968ee4268973b84ad0c643ffe7707097",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 59,
+      "dataset": "CVC-ClinicDB",
+      "file": "73.png",
+      "sha256": "fa746837f2164aaae80d52678a55ab82475be2c8ef49e186ec58f88739bd669c",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 60,
+      "dataset": "CVC-ClinicDB",
+      "file": "80.png",
+      "sha256": "2561aa282c8691c4d96f1295161f76586f3a185e320b63fd48cc4a3a908acb53",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 61,
+      "dataset": "CVC-ClinicDB",
+      "file": "89.png",
+      "sha256": "12ef07cb83863cc9acaa39e83e3040216756a528aa9a27be944250d6ccc2a463",
+      "width": 384,
+      "height": 288
+    },
+    {
+      "id": 62,
+      "dataset": "CVC-ColonDB",
+      "file": "1.png",
+      "sha256": "bc41e17113fb1151f2ac162a5ec0048ab6ef6c40da6946c203cc856b7c09b3b4",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 63,
+      "dataset": "CVC-ColonDB",
+      "file": "10.png",
+      "sha256": "e2178407799734930618facf7932e609d16caab69faf6a6b6234410c90a86d92",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 64,
+      "dataset": "CVC-ColonDB",
+      "file": "100.png",
+      "sha256": "214740f04180650b72bf9e7daadb42577ee00d51295edbcc6fb90c232a115c65",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 65,
+      "dataset": "CVC-ColonDB",
+      "file": "101.png",
+      "sha256": "714bbe5712af57fe4228268ab25f3300c96135ed150a0a2af8b0edc54f8e0224",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 66,
+      "dataset": "CVC-ColonDB",
+      "file": "102.png",
+      "sha256": "41d4a18133d84909136e4444fa91d6fc02d177e39068d8cca897011ca2599999",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 67,
+      "dataset": "CVC-ColonDB",
+      "file": "103.png",
+      "sha256": "a65035c9151fea73081819d68e110d463c381fcb0119c496aa720c3bb4884ba4",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 68,
+      "dataset": "CVC-ColonDB",
+      "file": "104.png",
+      "sha256": "dfc724a180c1bbde2d64cc129511983cce2bc4823c9ac4391ae2e8c9f9e8d525",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 69,
+      "dataset": "CVC-ColonDB",
+      "file": "105.png",
+      "sha256": "a9d5b1003b0f477060b7d3632c413f8cfd7ef248cd43759904deaca1f1a5fa8f",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 70,
+      "dataset": "CVC-ColonDB",
+      "file": "106.png",
+      "sha256": "caedd8205041159081ac59d3bba5f725684718648ac51c2d142dc132f9b4eb62",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 71,
+      "dataset": "CVC-ColonDB",
+      "file": "107.png",
+      "sha256": "441debb0e229c7de1e1f58087c2928aa115fee8b876876accb06baccb3561e99",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 72,
+      "dataset": "CVC-ColonDB",
+      "file": "108.png",
+      "sha256": "4b8f27bd7c371fe62acc6566fab3524d6fd64fa21e1c5adf075ad120f978f572",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 73,
+      "dataset": "CVC-ColonDB",
+      "file": "109.png",
+      "sha256": "d8e3eb52bbde1d0e6292c3c3513c2f7b352529845ccfc2279eca0faad720d7d9",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 74,
+      "dataset": "CVC-ColonDB",
+      "file": "11.png",
+      "sha256": "c4c05e9abd2a5b01d6ec97b217befa2e1bd733230ae9269967721cdfe1b90761",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 75,
+      "dataset": "CVC-ColonDB",
+      "file": "110.png",
+      "sha256": "b4a81a04b428eee4b6598e461893c6f409fa472a0dcd15f0bf0d6d3dce38559c",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 76,
+      "dataset": "CVC-ColonDB",
+      "file": "111.png",
+      "sha256": "3bd0d96430abeab6dd451de3ce9bbefbb087c5c6644971eec3d499086789be47",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 77,
+      "dataset": "CVC-ColonDB",
+      "file": "112.png",
+      "sha256": "6eed0d74f5b5b062560a7ba208a184486941c819b4973094c2d0d7220670bc29",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 78,
+      "dataset": "CVC-ColonDB",
+      "file": "113.png",
+      "sha256": "67c8612c3862e743865ccb62b389beb5f77cfde55221e2f8e9b54b944f3be59b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 79,
+      "dataset": "CVC-ColonDB",
+      "file": "114.png",
+      "sha256": "627b338b5e433a6b080d322009731d58b3daf795128f40c979d2f3ee34fc2d10",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 80,
+      "dataset": "CVC-ColonDB",
+      "file": "115.png",
+      "sha256": "85709e7bc7978d354f3e88df73644d87c720c9f2ad6cc5c6c68a3d86ceb1c108",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 81,
+      "dataset": "CVC-ColonDB",
+      "file": "116.png",
+      "sha256": "583fa435207e8e14353516544f9bc76b1b540f6b44acd44587de1d707a477e2a",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 82,
+      "dataset": "CVC-ColonDB",
+      "file": "117.png",
+      "sha256": "cd1ca5c86538180effcec1e25a092ca5f2ac7705469ffa9cf05d06f7843cf9c0",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 83,
+      "dataset": "CVC-ColonDB",
+      "file": "118.png",
+      "sha256": "1f5a7a1327abd47f6fb82c685a15d4aa094ddece9668e31f4183625a2dfc5b95",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 84,
+      "dataset": "CVC-ColonDB",
+      "file": "119.png",
+      "sha256": "3f9bf931734ff58e66ab259c68f0c3805f0646859faf20f0e4d31dd73b7d3ac1",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 85,
+      "dataset": "CVC-ColonDB",
+      "file": "12.png",
+      "sha256": "98a886265e9978bdb17d22eee898c1c08631463e0598611d1483e8c73b825d5f",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 86,
+      "dataset": "CVC-ColonDB",
+      "file": "120.png",
+      "sha256": "6d44861262f98caddd25920552d251b62b229fe621eef5eaf48704841c2c9847",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 87,
+      "dataset": "CVC-ColonDB",
+      "file": "121.png",
+      "sha256": "f117d8eea49a026497899935745ef1b565786b19bbb856897230bcadfe54dafa",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 88,
+      "dataset": "CVC-ColonDB",
+      "file": "122.png",
+      "sha256": "34c79265e176bdaf97e9b4e91b5da53cbeedaec7f87c8ff4ac1854315c976673",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 89,
+      "dataset": "CVC-ColonDB",
+      "file": "123.png",
+      "sha256": "1da2299644af65f27173f6409e1ad04432b6af6c24fbd7daf21f91cd206a8490",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 90,
+      "dataset": "CVC-ColonDB",
+      "file": "124.png",
+      "sha256": "c224d1184f014058e5a21afaf6e5ae839e79c7b0b30f64d791b403cd64065ffe",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 91,
+      "dataset": "CVC-ColonDB",
+      "file": "125.png",
+      "sha256": "0e919ab3e3ca06bbd88799344043ce8c6380fd1fd131485474253c4eb1728193",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 92,
+      "dataset": "CVC-ColonDB",
+      "file": "126.png",
+      "sha256": "eae631b1bc825c0a2bb0f72b7f1325f23c4933a1b02203925ffa042e947ae65b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 93,
+      "dataset": "CVC-ColonDB",
+      "file": "127.png",
+      "sha256": "7ab142787ca7afb0f3a476c56b3a5069520c8967f1ffb34924209edfa84aa52f",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 94,
+      "dataset": "CVC-ColonDB",
+      "file": "128.png",
+      "sha256": "49525d83c2e96d96f484cf1c2f68e71006d71ffa4bff43cf3ad39229287a3653",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 95,
+      "dataset": "CVC-ColonDB",
+      "file": "129.png",
+      "sha256": "36534b1af03e6afa1ba3a4a7994da8cdc1f9caa743237c64a29b38436dcabef4",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 96,
+      "dataset": "CVC-ColonDB",
+      "file": "13.png",
+      "sha256": "6f7e55acbf17c52fe601d5c45f824506e5d728c3a2f57bf11d084bf80348ab58",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 97,
+      "dataset": "CVC-ColonDB",
+      "file": "130.png",
+      "sha256": "2fafb9856151d66880fec8b31dcc163a5c5173296462d11e2d5a64adccb08bb5",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 98,
+      "dataset": "CVC-ColonDB",
+      "file": "131.png",
+      "sha256": "3cc3cd919d4520e233430cdf4d61c527ba5d776fc957801ad00d2202cfbd45ec",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 99,
+      "dataset": "CVC-ColonDB",
+      "file": "132.png",
+      "sha256": "6fbdb821078988424756f58398535725584a1e130f0dd488fb898118eff9d04d",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 100,
+      "dataset": "CVC-ColonDB",
+      "file": "133.png",
+      "sha256": "7f94be59b61ad931198313df62fa44a22b04a95c50e578635d4af90d4ae11070",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 101,
+      "dataset": "CVC-ColonDB",
+      "file": "134.png",
+      "sha256": "6e23a6fd379166d145c1da9b6e18b6943ed6474af3aef539c7d4237102d51a40",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 102,
+      "dataset": "CVC-ColonDB",
+      "file": "135.png",
+      "sha256": "a171f3c0f68d8ca77819c1bcf67d18ba99eb563a96f97fe1a4ab5d249684bff0",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 103,
+      "dataset": "CVC-ColonDB",
+      "file": "136.png",
+      "sha256": "164a1fd6b6f99ff7368fff5fc844658081bc9c3b420301040c4437e657649372",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 104,
+      "dataset": "CVC-ColonDB",
+      "file": "137.png",
+      "sha256": "e44319eaee108438eff0344d3adf857092c13d241049cdf9a1e42ce14582ee85",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 105,
+      "dataset": "CVC-ColonDB",
+      "file": "138.png",
+      "sha256": "357fe0a8b317b2f92cb847995dcdbac00756e16c07d1b78bb07d2725339d5dde",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 106,
+      "dataset": "CVC-ColonDB",
+      "file": "14.png",
+      "sha256": "2eb66b0ea741ea72000563655e392b6077260e71fbc754ac66e01568bf90f573",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 107,
+      "dataset": "CVC-ColonDB",
+      "file": "140.png",
+      "sha256": "f202aa9128e717f7fbbcf3ebed53a8aa3131b128225483bce5af0b4a8d7202d4",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 108,
+      "dataset": "CVC-ColonDB",
+      "file": "141.png",
+      "sha256": "47b7016d271cf57e69e6f9abcd2ccc686f3d7c7155e3bcbd55b2ca082699e555",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 109,
+      "dataset": "CVC-ColonDB",
+      "file": "142.png",
+      "sha256": "624d6c738d6559c2543c6221171eb1d24b6578e68fbb2b164f395fcaef36e600",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 110,
+      "dataset": "CVC-ColonDB",
+      "file": "143.png",
+      "sha256": "9eb7e698ff1cb34986b6e812a0a8a8968fa916533487e36d5657f5df089df62c",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 111,
+      "dataset": "CVC-ColonDB",
+      "file": "144.png",
+      "sha256": "2cda3c41dd60c2e1d84ef9666cff8aadc463385e2833110b3fb2a56102acf5aa",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 112,
+      "dataset": "CVC-ColonDB",
+      "file": "145.png",
+      "sha256": "a3f69bb207201211a026da5599c3bdd4741f852ae5950e2e7a412295467d8ef9",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 113,
+      "dataset": "CVC-ColonDB",
+      "file": "146.png",
+      "sha256": "cf8e1cb6dc973ac758ec52e02be5a4c1d891910f749f56aa834a056964df5cf2",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 114,
+      "dataset": "CVC-ColonDB",
+      "file": "147.png",
+      "sha256": "d56eea056d20f680794cd733eeec6de2918490c2c6bcfb6ac02254b248067f5b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 115,
+      "dataset": "CVC-ColonDB",
+      "file": "148.png",
+      "sha256": "4df0aa1b9fc7f147300150537dca9717c974f2e58c4196c9f74b78481587b3fc",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 116,
+      "dataset": "CVC-ColonDB",
+      "file": "149.png",
+      "sha256": "faea4cd28397e27244785aac08e769ab756adbbc0066e3c180246badd4cb2efd",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 117,
+      "dataset": "CVC-ColonDB",
+      "file": "15.png",
+      "sha256": "2d7ee51eb0a2aa40a9a841954c649020d679ecf13aaa0aef317b0869dd6d43d0",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 118,
+      "dataset": "CVC-ColonDB",
+      "file": "150.png",
+      "sha256": "05f39f0b8bf53ced09987963cc9b1865910d4930ea9b85d91c56cb2b182a1ec7",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 119,
+      "dataset": "CVC-ColonDB",
+      "file": "151.png",
+      "sha256": "dbd19726009373d360d5889fbd8ddb99b082ae7220bd5cb8fb293f7a427527d6",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 120,
+      "dataset": "CVC-ColonDB",
+      "file": "152.png",
+      "sha256": "1db7532c40bf3d9afe241606fe5ac5cd327db27677bf4193c847247bbaad4927",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 121,
+      "dataset": "CVC-ColonDB",
+      "file": "153.png",
+      "sha256": "f6719515fb8d28bde2ebccd18ef249adf3445ca263cff8b358911616674639d9",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 122,
+      "dataset": "CVC-ColonDB",
+      "file": "154.png",
+      "sha256": "ecce097184ead4470cad5f0586f33016aedf4ec0e3f55c351930bb9ed8607c0d",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 123,
+      "dataset": "CVC-ColonDB",
+      "file": "155.png",
+      "sha256": "b007ed919cf46f8a075b0f052c3e2313ae157b78e78567087b6585331828eebc",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 124,
+      "dataset": "CVC-ColonDB",
+      "file": "156.png",
+      "sha256": "6688d4f620f83e94baece8fccc98009562141285558d5394b955ff1317732e22",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 125,
+      "dataset": "CVC-ColonDB",
+      "file": "157.png",
+      "sha256": "93f518f9a4d14871da5b9dc143ce4396323fe816b6090c9d3c180d1992a57806",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 126,
+      "dataset": "CVC-ColonDB",
+      "file": "158.png",
+      "sha256": "22e3b0a58a9be523cd8f662d3bfb0e7f4604da15a922c57d79dd0aec35a9668b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 127,
+      "dataset": "CVC-ColonDB",
+      "file": "159.png",
+      "sha256": "826b01e08b4bbe0a5d6597521314fdc67269c681048d4869431623e36fa11f67",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 128,
+      "dataset": "CVC-ColonDB",
+      "file": "16.png",
+      "sha256": "e217b4327a616b2c9b6201287eabe8b9e7ed27d5e518c99d19d2ce268a9ef0e5",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 129,
+      "dataset": "CVC-ColonDB",
+      "file": "160.png",
+      "sha256": "75aa7ec6cf242bc16e6b469d9ca3ba5016329c21873a530f0f2a36a6f8821bb4",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 130,
+      "dataset": "CVC-ColonDB",
+      "file": "161.png",
+      "sha256": "016a6f5e3f1ad461da44bb810eed1f8f6d33bd53d021cfb4688a38834562d66e",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 131,
+      "dataset": "CVC-ColonDB",
+      "file": "162.png",
+      "sha256": "049f77f2d89f30a84905f802dd84c54eca480352124265680132741b28ac3ca7",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 132,
+      "dataset": "CVC-ColonDB",
+      "file": "163.png",
+      "sha256": "27f123c424e61f0f56023cda9e05c5e5c403bcfb6602e46242498ec0a9a59f46",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 133,
+      "dataset": "CVC-ColonDB",
+      "file": "164.png",
+      "sha256": "41b4464e11a8b102210738bf74b20177221953d2bc786210a244817fa71d33ba",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 134,
+      "dataset": "CVC-ColonDB",
+      "file": "165.png",
+      "sha256": "068e627b5fef812ee72312dffdd4651e3894b739df9eab0a7d9d0ebb8814fcdd",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 135,
+      "dataset": "CVC-ColonDB",
+      "file": "166.png",
+      "sha256": "320becea0853aa355dcd0d29c29479e4b5254b55e5b9b0133ce1f30f7f9615cb",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 136,
+      "dataset": "CVC-ColonDB",
+      "file": "167.png",
+      "sha256": "4f4e802d10a1b273af446f7b7cd24aa652b373fe40ad1ddcd39b8802a2327fd2",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 137,
+      "dataset": "CVC-ColonDB",
+      "file": "168.png",
+      "sha256": "6c5cdf28b2201b6fa08ce793f5c26f1f94543088142c1fff30e3cef7e703442d",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 138,
+      "dataset": "CVC-ColonDB",
+      "file": "169.png",
+      "sha256": "9dfee42724935e6d8186c1f309bebfb64c09fb55838662394d9e6397548e03db",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 139,
+      "dataset": "CVC-ColonDB",
+      "file": "17.png",
+      "sha256": "84b023feab205823dc331ede134a87ef9d89eb1804fe2e7ed104d0eebd081135",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 140,
+      "dataset": "CVC-ColonDB",
+      "file": "170.png",
+      "sha256": "a9b8132704328c706300341c349b7348e0e6c3b3ff32423574a3fd51f3e0a01a",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 141,
+      "dataset": "CVC-ColonDB",
+      "file": "171.png",
+      "sha256": "820098a9c1c07dc2d17de9ce9bd207722f4434700014bd439753c2c12f2d40ea",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 142,
+      "dataset": "CVC-ColonDB",
+      "file": "172.png",
+      "sha256": "1ad2a7f4d571a73832dc64fbf56292a8dae4a555d3513065a662bcebe565b960",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 143,
+      "dataset": "CVC-ColonDB",
+      "file": "173.png",
+      "sha256": "061aad82faa8daeb8ac9b33731ef612ea9302faf51a67109de28913101fd8e2d",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 144,
+      "dataset": "CVC-ColonDB",
+      "file": "174.png",
+      "sha256": "c54dc6206a84dd3fe79f682fe13e8aad1695b8d34a3f1c9911f4baa972ef440c",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 145,
+      "dataset": "CVC-ColonDB",
+      "file": "175.png",
+      "sha256": "81e04468804fc7dee53aa2224e0afff1c5fa8a09aba35b81fec0a8c52220e2c1",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 146,
+      "dataset": "CVC-ColonDB",
+      "file": "176.png",
+      "sha256": "805f70b8ae1cb96dcf71959d16289ff58df082c23a78f6fa012c503ee7b992a4",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 147,
+      "dataset": "CVC-ColonDB",
+      "file": "177.png",
+      "sha256": "796af37bf5665ec47eba336f5b3926763f9c536475a3c6e85f3dce11aa4e1adb",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 148,
+      "dataset": "CVC-ColonDB",
+      "file": "178.png",
+      "sha256": "f07ee5b0cca7478c671e8db053bc443aa2b136da783d933e823755db7b7738f3",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 149,
+      "dataset": "CVC-ColonDB",
+      "file": "179.png",
+      "sha256": "c3f9da8d11ba72bd9e44bbb01f2efb4935ab4f97d8c8719c4a713129c1070b29",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 150,
+      "dataset": "CVC-ColonDB",
+      "file": "18.png",
+      "sha256": "cddb7f6c432c8c4c1d16e6874bbb2d25b41b58644733d1a2f81d40fc7528d9ef",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 151,
+      "dataset": "CVC-ColonDB",
+      "file": "180.png",
+      "sha256": "24163bd91f48f2f9da6ab89b9476974f78c8068b9dad7bbfa72e0e474cf3e652",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 152,
+      "dataset": "CVC-ColonDB",
+      "file": "181.png",
+      "sha256": "a8259a5c4044f51972eabfdfbe211ff21ec447458eeef1131add0eead9c11c70",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 153,
+      "dataset": "CVC-ColonDB",
+      "file": "182.png",
+      "sha256": "46c5b0c66a09797ba9ffe31139553dc6b580f827af7d0fbce5f7139507ec15b4",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 154,
+      "dataset": "CVC-ColonDB",
+      "file": "183.png",
+      "sha256": "e6fa1382788bc2e02bfd67b2f27f3995008e6ee0b57a8fe4d804c3d948c78c03",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 155,
+      "dataset": "CVC-ColonDB",
+      "file": "184.png",
+      "sha256": "7adc5853f6118392d5325bc342931f6033329cfc2102eefc0537ad518605542c",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 156,
+      "dataset": "CVC-ColonDB",
+      "file": "185.png",
+      "sha256": "2f0817306abee3b1c2de4fa83ca8a2db9f9088d4a78183ac386b7bd3669f53d8",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 157,
+      "dataset": "CVC-ColonDB",
+      "file": "186.png",
+      "sha256": "59b38aed299c9df871ea842f10ddbb129cf8150e325799ec1daf60fae6ea9f35",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 158,
+      "dataset": "CVC-ColonDB",
+      "file": "187.png",
+      "sha256": "db9c79a77fe192d98bfb88ebe08cb4385ca4b21ffeb123a9e75b42ae2de03761",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 159,
+      "dataset": "CVC-ColonDB",
+      "file": "188.png",
+      "sha256": "6fadc02e5dfb0e3518736bdedb7864f3aae3fba8ed7ea2015615e1ab1f57f49e",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 160,
+      "dataset": "CVC-ColonDB",
+      "file": "189.png",
+      "sha256": "77e22fcac15bbf5d5f7ede3367cd1ba63207406b3d66147d076a2c9157913c5f",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 161,
+      "dataset": "CVC-ColonDB",
+      "file": "19.png",
+      "sha256": "e7994b16a2da51f06950571018ae0870cac000d0e0b749ad9363326154fc6d1b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 162,
+      "dataset": "CVC-ColonDB",
+      "file": "190.png",
+      "sha256": "62dc2fd19321de6a7663bde478a29587ba4d7f4c4c15baa40468ae6cd9871610",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 163,
+      "dataset": "CVC-ColonDB",
+      "file": "191.png",
+      "sha256": "7e047506f0a6e17e1266e5fc41c61860ef583047f81af64ef08dbba68fcc367a",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 164,
+      "dataset": "CVC-ColonDB",
+      "file": "192.png",
+      "sha256": "16fa9b8df142d03987958d6569e32af71603c44d4cb3b3f8419f1e5fa36c81f2",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 165,
+      "dataset": "CVC-ColonDB",
+      "file": "193.png",
+      "sha256": "d0280cf7c6a7d5945ecb1f5c36f9c116d14ab40048dc90286a71acfc0793c186",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 166,
+      "dataset": "CVC-ColonDB",
+      "file": "194.png",
+      "sha256": "9710464622a8043085de7f2baf6386c2eeab6738de4f5e2fd7bd9fa32baad86b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 167,
+      "dataset": "CVC-ColonDB",
+      "file": "195.png",
+      "sha256": "954e45c5225c28010d378af710d34f62f55ce2d223744952eb9e07e1a70c257c",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 168,
+      "dataset": "CVC-ColonDB",
+      "file": "196.png",
+      "sha256": "4e40d0c07b66b286419ade153062f336fafb799603c06442f1b3259ad0762973",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 169,
+      "dataset": "CVC-ColonDB",
+      "file": "197.png",
+      "sha256": "9c06693727a7e429eb7f1466749ea170937fcf832afbe60e23bfac8c311c869d",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 170,
+      "dataset": "CVC-ColonDB",
+      "file": "199.png",
+      "sha256": "0b0915aeab6db33164b1b6455f01d32d49fe4cf64e962162f4c858b6da2952f7",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 171,
+      "dataset": "CVC-ColonDB",
+      "file": "2.png",
+      "sha256": "d947b94468bfd49faceacea6ecfc224e429a68cc5e151deefc38d5bb72e0e99d",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 172,
+      "dataset": "CVC-ColonDB",
+      "file": "20.png",
+      "sha256": "d7e1d11da21274eb7d1c527e3c371b447656b985482d575247120ebb2b84a484",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 173,
+      "dataset": "CVC-ColonDB",
+      "file": "200.png",
+      "sha256": "d79a26a660ad6c1efcd15f5da0de5b7871ca1c735c964e7d82b12e3949ab1505",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 174,
+      "dataset": "CVC-ColonDB",
+      "file": "201.png",
+      "sha256": "910ebea4a2356facd7e1dd1c55292d9c81ca12f04dd165531a58b35849c66d95",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 175,
+      "dataset": "CVC-ColonDB",
+      "file": "202.png",
+      "sha256": "ff5c8d1b67e143d7b74184364ebd6d5230b6111f073ed9e52dac4f9558d88e5f",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 176,
+      "dataset": "CVC-ColonDB",
+      "file": "204.png",
+      "sha256": "ee52d55fbfe151a88239f742b2ad1f1cf7d1b155f86e0edd961195461a38b877",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 177,
+      "dataset": "CVC-ColonDB",
+      "file": "205.png",
+      "sha256": "e273676c04075247d577042b14ef4b0e14111471d9b2382d74e0165c29f5361d",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 178,
+      "dataset": "CVC-ColonDB",
+      "file": "206.png",
+      "sha256": "cf4f84104f440669746dbb53d85f4000008bec30062ad92907903d9579411319",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 179,
+      "dataset": "CVC-ColonDB",
+      "file": "207.png",
+      "sha256": "e3b363b87ff6696f24d164f04e1571a014b26d9dc0f3224bb14d6adeb22483d8",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 180,
+      "dataset": "CVC-ColonDB",
+      "file": "208.png",
+      "sha256": "0d33090d1b441add2840ea0445d818e33723379338e7495c9e3a49c5746b0c00",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 181,
+      "dataset": "CVC-ColonDB",
+      "file": "209.png",
+      "sha256": "8a744422c723ef1dd282d5f16a88fee18ae7da894655345cfde1fc3331e01bbf",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 182,
+      "dataset": "CVC-ColonDB",
+      "file": "21.png",
+      "sha256": "f7348a44db9c97d1827047721e1aeb9efbf20787fc1e7a48eb449c96f22f5db2",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 183,
+      "dataset": "CVC-ColonDB",
+      "file": "210.png",
+      "sha256": "501b50ecdb9e8b6a30b38bd610183a4098a7135edafa038b34ce9e0abb86c0ff",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 184,
+      "dataset": "CVC-ColonDB",
+      "file": "211.png",
+      "sha256": "3053e0a21427b87776b43d3b70ac29f1ce3cf08520001a3dee82424f0e183e70",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 185,
+      "dataset": "CVC-ColonDB",
+      "file": "212.png",
+      "sha256": "6d412cafe69b75c18e14c7e890eecef839e30885b9b31c45388f50c1fe3ead85",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 186,
+      "dataset": "CVC-ColonDB",
+      "file": "213.png",
+      "sha256": "c8f2a8ee47c282adb7d36aa596fc57cb1451fb29f10bab49dd7be170dd165e03",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 187,
+      "dataset": "CVC-ColonDB",
+      "file": "214.png",
+      "sha256": "8442f620338c0284570199c0bd61eaa45aef5ddbcce6f51caecc8fc4e042134a",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 188,
+      "dataset": "CVC-ColonDB",
+      "file": "215.png",
+      "sha256": "ac2e8f0215117fb1a6d5e7422ee057e3e16c04d7124c5f0e84285b33ac79f42b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 189,
+      "dataset": "CVC-ColonDB",
+      "file": "216.png",
+      "sha256": "6e5ea4027ebb21d6c22c0af864e081f849cf0b69e662beb1890708d3ab9fcb81",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 190,
+      "dataset": "CVC-ColonDB",
+      "file": "217.png",
+      "sha256": "f4146e262eb41d158a066e8f0129f00a24f6075ec508a809cda6e1cce112080a",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 191,
+      "dataset": "CVC-ColonDB",
+      "file": "218.png",
+      "sha256": "77ec8842836040514dca09db5cab133e85646c4c98aa5ebf4b5780282a8a47f2",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 192,
+      "dataset": "CVC-ColonDB",
+      "file": "219.png",
+      "sha256": "1c8d85f2b7c6318178cbf78099b4413a28da9feb907850966e3c71f4120e165f",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 193,
+      "dataset": "CVC-ColonDB",
+      "file": "22.png",
+      "sha256": "2f82fda04f30df89053433632c3f54f37e9f0bedb57c51ec735f6815a733c8d6",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 194,
+      "dataset": "CVC-ColonDB",
+      "file": "220.png",
+      "sha256": "37f1dc58c7e7fb7e4369621a542e1069c1b8b3978170cad209c1c6e89e1280ab",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 195,
+      "dataset": "CVC-ColonDB",
+      "file": "221.png",
+      "sha256": "2f6e767d3248339e42bcf5e2ca0d3884d5dfb460994ea3ac80687c60ce5f3ade",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 196,
+      "dataset": "CVC-ColonDB",
+      "file": "222.png",
+      "sha256": "6047b3fde2142b94bd361b6a2fc19455a8e3aba8f6313708a654c784dc8cf843",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 197,
+      "dataset": "CVC-ColonDB",
+      "file": "223.png",
+      "sha256": "c728e60219159cf189380e1d69afe9b268c021f9a2be14cf71fcffb5594e9ddd",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 198,
+      "dataset": "CVC-ColonDB",
+      "file": "224.png",
+      "sha256": "fcbe245d8ef22e7b17b9f0b82d0d1a24b5664b00b1efb91319c4b056b3d6d1a5",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 199,
+      "dataset": "CVC-ColonDB",
+      "file": "225.png",
+      "sha256": "7ddc77cd90442e16ba2eb37298a177423b195efb37ca40ce69caa82edbe6632b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 200,
+      "dataset": "CVC-ColonDB",
+      "file": "226.png",
+      "sha256": "578b1b1ce6ca2a867faa2c360daef406fe42da23fe70a1132219566242f6f068",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 201,
+      "dataset": "CVC-ColonDB",
+      "file": "227.png",
+      "sha256": "1bdea7dba13909c7e904816bf2dd66185bec878af8255b57a0ebd8c397e4346a",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 202,
+      "dataset": "CVC-ColonDB",
+      "file": "228.png",
+      "sha256": "ab308fe6dcbc1141b8ef2a4d969803c79a2107c75e06ffdedcea29232ed4f210",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 203,
+      "dataset": "CVC-ColonDB",
+      "file": "229.png",
+      "sha256": "f5d1ee3782ee6e43cac9c8d2fa4e5de56162468b0467ac579059efc85628753b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 204,
+      "dataset": "CVC-ColonDB",
+      "file": "23.png",
+      "sha256": "6238e31b3083cb662148c70e8aac8306b9a7df7385e35f8200cbffe06dff4dea",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 205,
+      "dataset": "CVC-ColonDB",
+      "file": "230.png",
+      "sha256": "4d0ad4c198c08150ce3880560307bb6eb319b6d482a7007fde94d1ad42e5430c",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 206,
+      "dataset": "CVC-ColonDB",
+      "file": "231.png",
+      "sha256": "40cda1d9a07a7a3338b56029761e2e9dbcafcf882bd689253a4df7bc6af2bb34",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 207,
+      "dataset": "CVC-ColonDB",
+      "file": "232.png",
+      "sha256": "489cc2e74781c92ad8d80c7cd3771af5e35ae321f3d7e782b39bd34065fd4326",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 208,
+      "dataset": "CVC-ColonDB",
+      "file": "233.png",
+      "sha256": "1ec279041f755a9c4aab2c2ab3dbe9a4eae12cd26cee730aad56b296d5445394",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 209,
+      "dataset": "CVC-ColonDB",
+      "file": "234.png",
+      "sha256": "119e52ea12f120d221bc583ec11b681f39a781c390ad24fd87f558ae66e92f49",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 210,
+      "dataset": "CVC-ColonDB",
+      "file": "235.png",
+      "sha256": "4f55826df8aa80490c35b375ab93f87bbc2d715548bf547396970b42e0df5a52",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 211,
+      "dataset": "CVC-ColonDB",
+      "file": "236.png",
+      "sha256": "77dfecf6b415ac08b200c15957d6255e7056c529bcab59e40df80f9337542494",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 212,
+      "dataset": "CVC-ColonDB",
+      "file": "237.png",
+      "sha256": "d293b10aef8ff22e73ad72557264a328134226738403aefa71a6b1319b773e3f",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 213,
+      "dataset": "CVC-ColonDB",
+      "file": "238.png",
+      "sha256": "c8f046b68afffa4a57566314d821101fd1261ff7def6098afa5a1d4946b4d972",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 214,
+      "dataset": "CVC-ColonDB",
+      "file": "239.png",
+      "sha256": "f6a8a4ddda02f73ce713c944fe9b83cab626ae994c0ffbdf983363e417a7d09c",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 215,
+      "dataset": "CVC-ColonDB",
+      "file": "24.png",
+      "sha256": "1c4c088fa4dbb594f618e569cd6d635d670bd52fadf463e19feb9d338008c289",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 216,
+      "dataset": "CVC-ColonDB",
+      "file": "240.png",
+      "sha256": "325d22ece28bce7873229402046ebdc0253910535f4ce8b025267dd0972548fe",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 217,
+      "dataset": "CVC-ColonDB",
+      "file": "241.png",
+      "sha256": "7e63703968302c5535de28f580e898dc2a287f769c6a93cdcdf1e7f7384481b4",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 218,
+      "dataset": "CVC-ColonDB",
+      "file": "242.png",
+      "sha256": "7630c92d70f158fa0018175279b86d31a84431e9f6d88ad8f4d541c0a5c90272",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 219,
+      "dataset": "CVC-ColonDB",
+      "file": "243.png",
+      "sha256": "947df8535db58b62fd0d258f0b9091ab4d7f8ca278ea3a0734ed7c9a3249ea27",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 220,
+      "dataset": "CVC-ColonDB",
+      "file": "244.png",
+      "sha256": "246b00cd2fa65d310c20269fff2d808f73dd8d0d397d8355dc1ba17f99e46263",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 221,
+      "dataset": "CVC-ColonDB",
+      "file": "25.png",
+      "sha256": "e8c6becbe7d9cb8afc519d7b56c432502687a51f94aad1e873bdea659c879d6a",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 222,
+      "dataset": "CVC-ColonDB",
+      "file": "26.png",
+      "sha256": "a400de6cba4a5f8563ab77d330c261d819de7ae25413b55fc16a30ce7b4dc8c9",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 223,
+      "dataset": "CVC-ColonDB",
+      "file": "264.png",
+      "sha256": "ddba7989e497727d5850c36b4ce84664c4100c3339b00e351256009428531553",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 224,
+      "dataset": "CVC-ColonDB",
+      "file": "265.png",
+      "sha256": "e9c2bc43456876aa37e17e89a7a70a1ed268586798f700b55ca5eb509402ea90",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 225,
+      "dataset": "CVC-ColonDB",
+      "file": "266.png",
+      "sha256": "0057c9545c2bc1e63d0f3add0a48aff5b7b4754b3303fcc8ed101f469e7f3e88",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 226,
+      "dataset": "CVC-ColonDB",
+      "file": "267.png",
+      "sha256": "95f47424edbc8c30703387666920e57a741e113f7fd67879ee1120497e017ab7",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 227,
+      "dataset": "CVC-ColonDB",
+      "file": "268.png",
+      "sha256": "175f4067438f6272e83f2d1bfe301d01083fc61491eb3c8851fb36b72051af67",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 228,
+      "dataset": "CVC-ColonDB",
+      "file": "269.png",
+      "sha256": "d306458cae3aa1e4a94ae6d2224c3f60dcaa32a80224c0dc9ddd76644b670453",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 229,
+      "dataset": "CVC-ColonDB",
+      "file": "27.png",
+      "sha256": "395bde79c99e9f5f7266ddc62f98a5cfc6011fa12a5d03147b4196c9261937b2",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 230,
+      "dataset": "CVC-ColonDB",
+      "file": "270.png",
+      "sha256": "e03ded7b220bf516f901b349641ff503649a5219fd727e163fc476aea3a5b209",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 231,
+      "dataset": "CVC-ColonDB",
+      "file": "273.png",
+      "sha256": "2d59fd9e234f26a483f870b5c7a1abb54c2d11331c809214ee46fed499c9d4b2",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 232,
+      "dataset": "CVC-ColonDB",
+      "file": "274.png",
+      "sha256": "e0190d30c6314d1b1dc07b2b5e9baf1dd9fd866a05c5f7497f26ebfe1bc24471",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 233,
+      "dataset": "CVC-ColonDB",
+      "file": "275.png",
+      "sha256": "eb6b421eaa718fb635962612ed2ee0981acfb2ffa3c296c37ccb25e9d3d3dc01",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 234,
+      "dataset": "CVC-ColonDB",
+      "file": "276.png",
+      "sha256": "7ff9aa866dc451e07db7d4764eb68b80d7fd8b114d56b774a35927d31aef2363",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 235,
+      "dataset": "CVC-ColonDB",
+      "file": "277.png",
+      "sha256": "ff779c24fcce4b237706d7de4832a00008cd89b527bdba915d1c01b40487a1ac",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 236,
+      "dataset": "CVC-ColonDB",
+      "file": "278.png",
+      "sha256": "07de4c94a071d1ccb4f2115dafcdc778b8bf66716c66e71249624df8c1e2fd77",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 237,
+      "dataset": "CVC-ColonDB",
+      "file": "279.png",
+      "sha256": "0f81843f9fa89f39c9dd099ec174c392c43036b5169f9a571b204d3fcc3b7e1f",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 238,
+      "dataset": "CVC-ColonDB",
+      "file": "28.png",
+      "sha256": "f832426b814bb92a8384ab438046e47f7083158d61504af4675c0ddf8119bf93",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 239,
+      "dataset": "CVC-ColonDB",
+      "file": "280.png",
+      "sha256": "82c25d6cf1b65dafc2de1d9d2013b02bce778154e169939d7cd5e31f903a2aad",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 240,
+      "dataset": "CVC-ColonDB",
+      "file": "281.png",
+      "sha256": "1efbd6aa0963408a34bcd03a8edf6cbede36fe200918561d457058119d22aa7c",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 241,
+      "dataset": "CVC-ColonDB",
+      "file": "282.png",
+      "sha256": "7f34fa1006737aed6bd8df39375c4a53deef6348afc1f68862b7d2adb50159aa",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 242,
+      "dataset": "CVC-ColonDB",
+      "file": "283.png",
+      "sha256": "e01b10f00fa8d5de0a91cacd754399b442950d1f8dfae6acf8c3dd77e2ad4c01",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 243,
+      "dataset": "CVC-ColonDB",
+      "file": "284.png",
+      "sha256": "9b2f765eb6d9b78014218f58ce679452939029af40dfc282a7b6b081eb30a46f",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 244,
+      "dataset": "CVC-ColonDB",
+      "file": "285.png",
+      "sha256": "25bb6a0daf5174f45a03aea36178711770226f8eef50ed05976ad94cceb7c258",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 245,
+      "dataset": "CVC-ColonDB",
+      "file": "286.png",
+      "sha256": "3fbb25eb131251c638ec0566c5e126ac291ac73cbf2c0ab06ca6f5e17a091232",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 246,
+      "dataset": "CVC-ColonDB",
+      "file": "287.png",
+      "sha256": "223a19ef5d84871d8ca2e192c47ca1f98a3aa0c950ab3c57676e895a0fcbd63b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 247,
+      "dataset": "CVC-ColonDB",
+      "file": "288.png",
+      "sha256": "9b00557eebaea7b6a9fde83981b669199dffeb8b3024b9876d050e2f83abc519",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 248,
+      "dataset": "CVC-ColonDB",
+      "file": "29.png",
+      "sha256": "940234e826229579cd715e2ca6e60d32f315b6fe785be32cfb9c2681ab849824",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 249,
+      "dataset": "CVC-ColonDB",
+      "file": "290.png",
+      "sha256": "06a73554f2e941734d94a58a091f77143449886fb009eacef7a8f6cebc4779cf",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 250,
+      "dataset": "CVC-ColonDB",
+      "file": "291.png",
+      "sha256": "42d66c8ea062a8473be3d4ce694853cf9e60d0a8e7a842a7a3faf52141a20962",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 251,
+      "dataset": "CVC-ColonDB",
+      "file": "292.png",
+      "sha256": "d5553c2e2fa7381752bfe740c204fa0984ed85b512be555ab3cacb3013bff4bd",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 252,
+      "dataset": "CVC-ColonDB",
+      "file": "293.png",
+      "sha256": "99bd05159fee39b4171831088c2f07b6c629db1dc5c37f14f2530f4e4926c62c",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 253,
+      "dataset": "CVC-ColonDB",
+      "file": "3.png",
+      "sha256": "77ff80a4bda752a5fe7c2edd574642f91489b4265ee4d22e19332b7586343acc",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 254,
+      "dataset": "CVC-ColonDB",
+      "file": "30.png",
+      "sha256": "6d0a00c978e130efc5619c397436e54aaee95be3d904987d33fb180dd24726d6",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 255,
+      "dataset": "CVC-ColonDB",
+      "file": "301.png",
+      "sha256": "074789c5e0432e90fbe7f19d0fc9c0c7b5e52fda4da817e21d9787a42587d79e",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 256,
+      "dataset": "CVC-ColonDB",
+      "file": "302.png",
+      "sha256": "4d8bf275eac5695e05d6a1c908df1bdeeda8150d482f04eaed6a0dee3593b896",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 257,
+      "dataset": "CVC-ColonDB",
+      "file": "303.png",
+      "sha256": "c82466cb13610cf90eed18b1f6f9bee609946b9b384c464022166043a0679dc8",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 258,
+      "dataset": "CVC-ColonDB",
+      "file": "304.png",
+      "sha256": "b2d0b1ce14e605b7b2b8df72b3e7a6eb607ca82a3a0b7d5c2a74d398896c6671",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 259,
+      "dataset": "CVC-ColonDB",
+      "file": "305.png",
+      "sha256": "b642e67132113bec449e136596319ac7ee57e1aa09b9d337c3c8dab52dbb6cf7",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 260,
+      "dataset": "CVC-ColonDB",
+      "file": "306.png",
+      "sha256": "b7987ca4a0bc1ecf5be7beaac491f2a41fe96b4c92e5e750f7eedf6a71f1fc48",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 261,
+      "dataset": "CVC-ColonDB",
+      "file": "307.png",
+      "sha256": "c49dbf65fb290d47512874a374da33a66fc07e4ea41e011da7bbab6145c7c1c6",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 262,
+      "dataset": "CVC-ColonDB",
+      "file": "308.png",
+      "sha256": "4fe8f23a421aebf385d3bdc3d74a625a19a92888354cfb6f9a4411fb71bf5ae3",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 263,
+      "dataset": "CVC-ColonDB",
+      "file": "309.png",
+      "sha256": "07a3ad0b727ff4330fb6d08a51fa76874d491807e0e2f93e294094a1843c4e88",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 264,
+      "dataset": "CVC-ColonDB",
+      "file": "31.png",
+      "sha256": "f979768e1023cb275a908daa80816103f2ee168597a060456fba49197aae6135",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 265,
+      "dataset": "CVC-ColonDB",
+      "file": "310.png",
+      "sha256": "91401d73b8c7c19d0bd914b131df8ff1a2760766fffefbdda367594be9a00f3b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 266,
+      "dataset": "CVC-ColonDB",
+      "file": "311.png",
+      "sha256": "ee9baa227378cd8c5cae98935c496142bd498d6012dccf55e4de820a769843fa",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 267,
+      "dataset": "CVC-ColonDB",
+      "file": "312.png",
+      "sha256": "bdfcd1a0cb558e247564832020ce05847e8e206db27af733bb7e6c648aa52cf8",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 268,
+      "dataset": "CVC-ColonDB",
+      "file": "313.png",
+      "sha256": "168cc0e2ec7ef5fbe57b78d6abebe4949503d924a4c23b4cc83aaacee8dc8b61",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 269,
+      "dataset": "CVC-ColonDB",
+      "file": "314.png",
+      "sha256": "3c785cb92db6b9c62d902e39380b4329c7b262e140cd69ca60a4d5148b6715a9",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 270,
+      "dataset": "CVC-ColonDB",
+      "file": "315.png",
+      "sha256": "7e8ecec7b96b4062251a67a4defb9035c24430c8302452b0fc36047770c78209",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 271,
+      "dataset": "CVC-ColonDB",
+      "file": "316.png",
+      "sha256": "0926a39a906636955b2a9336186dff5a0eb0a406c1b1459457141ffcf9b376b4",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 272,
+      "dataset": "CVC-ColonDB",
+      "file": "317.png",
+      "sha256": "d34af12426fa851c20447860c25dba069be54bdb59c541f1269019d2040822ac",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 273,
+      "dataset": "CVC-ColonDB",
+      "file": "318.png",
+      "sha256": "6b1402c1482766dd265136e8e89f22157b431b1f9bb2ef1b9b47ba54d6f74680",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 274,
+      "dataset": "CVC-ColonDB",
+      "file": "319.png",
+      "sha256": "b817fe86dd0094208f5e6a982f557086a675062ae4c47ddf078b077dfd9e2561",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 275,
+      "dataset": "CVC-ColonDB",
+      "file": "32.png",
+      "sha256": "56f9bc2250a30fc11558ef9cc57e30cfb97e2bb51da371c3f762ff9f8ca8aeb8",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 276,
+      "dataset": "CVC-ColonDB",
+      "file": "320.png",
+      "sha256": "fbda222791474e5bf9458d111877a2b4f1cea5973d27c2a3e3ee08961d774ed0",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 277,
+      "dataset": "CVC-ColonDB",
+      "file": "321.png",
+      "sha256": "e431aa8cf0e1cc74520db2b32c44f718d0755a87e055c2e0d943756c9aad72d4",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 278,
+      "dataset": "CVC-ColonDB",
+      "file": "322.png",
+      "sha256": "b9b9fa8e0d0df1c3bed54868d4547f678c79caac4588cdaf68da075f928d3581",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 279,
+      "dataset": "CVC-ColonDB",
+      "file": "323.png",
+      "sha256": "6979d590d8b50922f284df0c2606b597ecea2a07d3689f1776eb7d5d3230f8e0",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 280,
+      "dataset": "CVC-ColonDB",
+      "file": "324.png",
+      "sha256": "8c19d994bdf9dc21b5930762c6f607872d6c760cab19408213cb62b417485058",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 281,
+      "dataset": "CVC-ColonDB",
+      "file": "325.png",
+      "sha256": "d06cdad66c8d1a729a8c3a5a7a885df17338348e09f057d7d6cc47b9f27ad7e1",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 282,
+      "dataset": "CVC-ColonDB",
+      "file": "326.png",
+      "sha256": "6991ec43cb78901df6de97547ff5a101c549bcfe15d23c8dd40fcc6b3389d8fd",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 283,
+      "dataset": "CVC-ColonDB",
+      "file": "327.png",
+      "sha256": "acd70a50a3321aefbc3f3d7a17855bdc56408baf96ad1b605bb6c11026ba2b2a",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 284,
+      "dataset": "CVC-ColonDB",
+      "file": "328.png",
+      "sha256": "c245f72f087dbaa1e4faa5cec4c75bbec36891cf2f031e39c91189c3ab928133",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 285,
+      "dataset": "CVC-ColonDB",
+      "file": "329.png",
+      "sha256": "5cd155b708407f9b798395ce5ba2edc82205651cdf0177cc13240fa154ebe1b4",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 286,
+      "dataset": "CVC-ColonDB",
+      "file": "33.png",
+      "sha256": "9167640019dca9ffed8355cdb84592084f5c636869452f105c1381cb2fb8839d",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 287,
+      "dataset": "CVC-ColonDB",
+      "file": "330.png",
+      "sha256": "d50942de123fe9bd58e558352af1b29d68398dab761de4d93ffbcdd7f7034910",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 288,
+      "dataset": "CVC-ColonDB",
+      "file": "331.png",
+      "sha256": "eccbd66d3ccc4c3323c954f9da7b0fe7798352cbb5180c01b93f38f3cd6f1ec0",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 289,
+      "dataset": "CVC-ColonDB",
+      "file": "332.png",
+      "sha256": "2054b88f6f5664291e0a3400931e815154794d9d6b15db91cf5f237c45ae87ff",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 290,
+      "dataset": "CVC-ColonDB",
+      "file": "333.png",
+      "sha256": "dcc474e34257e109372c1b68f20b16e23b1c49fdb103eff60c50d487474baaaa",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 291,
+      "dataset": "CVC-ColonDB",
+      "file": "334.png",
+      "sha256": "5b54110b4ac1141640f6a0ccf3e68ddb8d37a0a21bc8273210f9652d44eb1c8b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 292,
+      "dataset": "CVC-ColonDB",
+      "file": "335.png",
+      "sha256": "95f03f3dbf3ca7e373eb4fe8b048df09056c16de5d65efdf137647c01afc48ec",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 293,
+      "dataset": "CVC-ColonDB",
+      "file": "336.png",
+      "sha256": "a7b89644b00e8e3e552a9efa62d285c7534acc124926c7ef2206a7ced4287278",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 294,
+      "dataset": "CVC-ColonDB",
+      "file": "337.png",
+      "sha256": "fad230cc471fd9caeba9564d1e865951ce4b3e973da9409c610e71fa24bde6d5",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 295,
+      "dataset": "CVC-ColonDB",
+      "file": "338.png",
+      "sha256": "b04c49d70bb16ecad4ed2388e0be6543c2a186a6d5b28dcb80e6f85168fe4e49",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 296,
+      "dataset": "CVC-ColonDB",
+      "file": "339.png",
+      "sha256": "bdf191b680b5d82530a4b3c2781faa5cac4f3d2a46277711dbcff0715b052597",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 297,
+      "dataset": "CVC-ColonDB",
+      "file": "34.png",
+      "sha256": "b1e2d1643ff042359fc903f1612f13d3d487ca620eaa3cf59e3c389b8b818185",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 298,
+      "dataset": "CVC-ColonDB",
+      "file": "340.png",
+      "sha256": "465f48d6f9970d97d2da7341236cd45350559273d72a78d658578c565337f806",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 299,
+      "dataset": "CVC-ColonDB",
+      "file": "341.png",
+      "sha256": "bb746b9bc28635db5a8b5bae6d740065ada03a879800b827ad5632be90314db5",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 300,
+      "dataset": "CVC-ColonDB",
+      "file": "342.png",
+      "sha256": "b66948954a7974433e15a0e7f183881b4293f27ba880bc4db61f77fe36ce03a1",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 301,
+      "dataset": "CVC-ColonDB",
+      "file": "343.png",
+      "sha256": "3abda49aaeb616721e63e99ad33faa9d9b8df7267e80a96033e768378d85c07d",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 302,
+      "dataset": "CVC-ColonDB",
+      "file": "344.png",
+      "sha256": "6a6218fcd47b45ec82a886997d0d5c9d7cdd0dfab4a21b0872b60013ffd69555",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 303,
+      "dataset": "CVC-ColonDB",
+      "file": "345.png",
+      "sha256": "1184b0f275dd07846c63a57636b8d2006ae5e7a0a84531ede310f94ffe6f822d",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 304,
+      "dataset": "CVC-ColonDB",
+      "file": "346.png",
+      "sha256": "1d97b9974a1c452f3182978fa38972edf872b3486919c382680c42841eef22e3",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 305,
+      "dataset": "CVC-ColonDB",
+      "file": "347.png",
+      "sha256": "2854ff8ce289aada53826d821c124879e4348f12573e84c69a217a96f57851d8",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 306,
+      "dataset": "CVC-ColonDB",
+      "file": "348.png",
+      "sha256": "69c245c17eac44146d4f092284a5358bd645df0cfd0d0b9ea8089a0dbbc9a308",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 307,
+      "dataset": "CVC-ColonDB",
+      "file": "349.png",
+      "sha256": "908af0539851004a724a210a1a906b799a83241db2278ebe6ec1df022e819280",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 308,
+      "dataset": "CVC-ColonDB",
+      "file": "35.png",
+      "sha256": "2807a1c170a8750231b58fff0b173ee5191cf08e78bea910a2ae09a4331025cf",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 309,
+      "dataset": "CVC-ColonDB",
+      "file": "350.png",
+      "sha256": "7ae0db4eb254507c030f5f2d02ea86baac72aa0e871c27b3e5cd6216c6a321d9",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 310,
+      "dataset": "CVC-ColonDB",
+      "file": "351.png",
+      "sha256": "be54fa17263f3ac06ff71ec9e3939d3dc514a5b768de4d2079cf00fa01f38f5d",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 311,
+      "dataset": "CVC-ColonDB",
+      "file": "352.png",
+      "sha256": "a65868813a61a6bf9c9bb56bb87c120de9406b93bdbbb1012e9a8e98884c6e60",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 312,
+      "dataset": "CVC-ColonDB",
+      "file": "353.png",
+      "sha256": "9d5da1fc3c9b3b3d8ed22009a9eb4654dd5179083b16818d4e7d25fd0dea3c28",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 313,
+      "dataset": "CVC-ColonDB",
+      "file": "354.png",
+      "sha256": "8ab2b07478d9a2daef299c661da8c7cb8b1a005d0693f3794b4ed1f8a1c0f245",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 314,
+      "dataset": "CVC-ColonDB",
+      "file": "355.png",
+      "sha256": "c874b866436eed007f6ddf9f7b2636e17c0739af4d7d8285f2a1f1d2be4287f8",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 315,
+      "dataset": "CVC-ColonDB",
+      "file": "356.png",
+      "sha256": "8497373c7642e6f8f357dfeec551537d737da67a60b8453dfe7def928cc15521",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 316,
+      "dataset": "CVC-ColonDB",
+      "file": "357.png",
+      "sha256": "9c0ca7d9af43a00129d2559ba720673fb8b0995df4eb68c2e350ee32ca16c1b0",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 317,
+      "dataset": "CVC-ColonDB",
+      "file": "358.png",
+      "sha256": "d5a62ecef811e584d606e9094fc3e78d86a355f5ca42551536134812220c7d1b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 318,
+      "dataset": "CVC-ColonDB",
+      "file": "359.png",
+      "sha256": "38c41da657709959b7144942c5163bbe7cc144f14ce7e23c1b14674bf1b78624",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 319,
+      "dataset": "CVC-ColonDB",
+      "file": "36.png",
+      "sha256": "3316b2cd23477d7e8eeb33dfbc908ad0ed10156878d66b8edbbaf17b84c19d36",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 320,
+      "dataset": "CVC-ColonDB",
+      "file": "360.png",
+      "sha256": "14ac73f10ff4e7872a7e6f9255fa746c618638565f87b8063567b2a4f64f5872",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 321,
+      "dataset": "CVC-ColonDB",
+      "file": "361.png",
+      "sha256": "e98dbda5837f9adfc59606cd1507e26d7907190a7e8c0d49b38ddcb6a184d405",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 322,
+      "dataset": "CVC-ColonDB",
+      "file": "362.png",
+      "sha256": "86866fbda120a485ab0fd307afe869ca6132ad0f696be5e106f071f4ee881f82",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 323,
+      "dataset": "CVC-ColonDB",
+      "file": "363.png",
+      "sha256": "840d2e39d3ce1220f7ce9202afc6797d2219957737e9bcedd51e0b7226c68ad9",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 324,
+      "dataset": "CVC-ColonDB",
+      "file": "364.png",
+      "sha256": "ea192e904d69282b13383fec074e5ff14d590bd2a9fdb8b5e9bc7271f41825b8",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 325,
+      "dataset": "CVC-ColonDB",
+      "file": "365.png",
+      "sha256": "9e7389f91c549718ecd9394441cfb5b1951f37e61c5eb3ac8d4b2350a908fa31",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 326,
+      "dataset": "CVC-ColonDB",
+      "file": "366.png",
+      "sha256": "cd87a7eb51b53416951dfad5fe92cf3aac4624f014789c6d1fc8e36de3a383ee",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 327,
+      "dataset": "CVC-ColonDB",
+      "file": "367.png",
+      "sha256": "e381c3b066225b1d4bad5d30fc52ed31d3817a61ef5a87d6f379076ae565957d",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 328,
+      "dataset": "CVC-ColonDB",
+      "file": "368.png",
+      "sha256": "8530f292412d9b8f3454e63f4c22f64e700ea4d2e1884fcc8265c1337804675f",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 329,
+      "dataset": "CVC-ColonDB",
+      "file": "369.png",
+      "sha256": "7f870c2ad27fe984839180e0628167db2427a53bf67400d7190eb345c8b65a8a",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 330,
+      "dataset": "CVC-ColonDB",
+      "file": "37.png",
+      "sha256": "133ceca5710a25fea9a612e324df4383ef1bf8b88e7ae1ddae1d896477e24190",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 331,
+      "dataset": "CVC-ColonDB",
+      "file": "370.png",
+      "sha256": "e2fba3e0c4dc9ba041ad63b1611a7dd260f853d7ff508b82a8bed27d2d0415fd",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 332,
+      "dataset": "CVC-ColonDB",
+      "file": "371.png",
+      "sha256": "1e26940cbdd361d3250a96284bcaecd7f03d4534cd0547f8c3b79e8610cfaa96",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 333,
+      "dataset": "CVC-ColonDB",
+      "file": "372.png",
+      "sha256": "bb14dbde1b228b7b6146f4e17ba5b0507431f02485bb415a83f6dd3772856617",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 334,
+      "dataset": "CVC-ColonDB",
+      "file": "373.png",
+      "sha256": "6620fd2bb7caaeaafbb24cd19d2eb457653e8f2a129df770b1d25044c4712e28",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 335,
+      "dataset": "CVC-ColonDB",
+      "file": "374.png",
+      "sha256": "c88b7314556df75a91dd3d215f9b9626bd02bca5e4997d812a0fc54ef0cdcc2a",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 336,
+      "dataset": "CVC-ColonDB",
+      "file": "375.png",
+      "sha256": "7886f6f955772de5898b7e3489511df677a467989ef412ee2b1e452a33b0420d",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 337,
+      "dataset": "CVC-ColonDB",
+      "file": "376.png",
+      "sha256": "1555b258a9b2eb05218981865aedb45ad302f78ef9624eddf92060a3943ab960",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 338,
+      "dataset": "CVC-ColonDB",
+      "file": "377.png",
+      "sha256": "68c881ebd9482d020f57dbee1928daaf16053439e332d39f3b0b3b40ecc7d910",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 339,
+      "dataset": "CVC-ColonDB",
+      "file": "378.png",
+      "sha256": "448337e73fb615825b2fd59c4ff6d86720af5e459fac509aa6c569ca9c4d90d3",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 340,
+      "dataset": "CVC-ColonDB",
+      "file": "379.png",
+      "sha256": "4cc9d2f8fcbc21a6eb4058da114d504f8d4ad75aff2acb52174df02d9c972b9b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 341,
+      "dataset": "CVC-ColonDB",
+      "file": "38.png",
+      "sha256": "109824025e56cf100c253b1529069d2c5657fb69d7112ab9dc8bcd4ac7e67a2b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 342,
+      "dataset": "CVC-ColonDB",
+      "file": "380.png",
+      "sha256": "f21e4afb3ae0be4dcc69579d7ae38bbe12489a73f2b8011794b35fd5fdb00f31",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 343,
+      "dataset": "CVC-ColonDB",
+      "file": "39.png",
+      "sha256": "dce08f2111a7b21062920858b3fa43039e4104cb006af6c7c6280a5c9540c38a",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 344,
+      "dataset": "CVC-ColonDB",
+      "file": "4.png",
+      "sha256": "d487aff09b0148005f773da220eba0c916966b39e5177bd528e984844340b5e5",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 345,
+      "dataset": "CVC-ColonDB",
+      "file": "40.png",
+      "sha256": "7320e3cb30d4f9a02465d737b47d99154633e04a2b443b0c446e807dd0b1a4f2",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 346,
+      "dataset": "CVC-ColonDB",
+      "file": "41.png",
+      "sha256": "b5527051ebb9d39d77c76c5e6b16e94a7d411fbc05e61e02faffe1b04f027de1",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 347,
+      "dataset": "CVC-ColonDB",
+      "file": "42.png",
+      "sha256": "2751a38db53f0a8e333b5b52827db53cc822ee2e4dbe60c54bdff5d2e54d65de",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 348,
+      "dataset": "CVC-ColonDB",
+      "file": "43.png",
+      "sha256": "f83790ec0a7f54f3e172409d805c13669ef8875077cf306724d313788e38e6ec",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 349,
+      "dataset": "CVC-ColonDB",
+      "file": "44.png",
+      "sha256": "109596c054c010f90ba9fa36c24e2237d83f2cddce28d4f184b0d757dc78341a",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 350,
+      "dataset": "CVC-ColonDB",
+      "file": "45.png",
+      "sha256": "3d23e9623890c91e413df9e7f56755072b2eab52f4f6057bddab6c70ab4943e8",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 351,
+      "dataset": "CVC-ColonDB",
+      "file": "46.png",
+      "sha256": "fddc7befa888eded670da34c04901337db55fb42c45ba650180ffab446bb1665",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 352,
+      "dataset": "CVC-ColonDB",
+      "file": "47.png",
+      "sha256": "eede97b890c19cbcf77c49ab516d28d5cfcc918432234b7ec40f5d289c8338b9",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 353,
+      "dataset": "CVC-ColonDB",
+      "file": "48.png",
+      "sha256": "cb2c81e6790cf87e17a9129db7181f8ff566b9a0f86d430b345993190824f76e",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 354,
+      "dataset": "CVC-ColonDB",
+      "file": "49.png",
+      "sha256": "7e827096e116e1a5a9a49bbbcb5d25f3fbb2ebaed8c8a27499ced17389e70821",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 355,
+      "dataset": "CVC-ColonDB",
+      "file": "5.png",
+      "sha256": "e151c71e2ae447a0c2507ebc39532b4d49d0bd51c1eb243543e56b450858eb44",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 356,
+      "dataset": "CVC-ColonDB",
+      "file": "50.png",
+      "sha256": "ab682673fb20cf9add8cb2e00ddbb7b769bf02270466bcfdd2dbbf1b56c146a5",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 357,
+      "dataset": "CVC-ColonDB",
+      "file": "51.png",
+      "sha256": "4f2890e16bcca8f7f3f94fbd4146a33b21983ac85a585f4c921a5e94d8c26473",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 358,
+      "dataset": "CVC-ColonDB",
+      "file": "52.png",
+      "sha256": "21bc4fb211d2c4cb8a9c964252fddf532ab2362d31374a785fb4f66509c79766",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 359,
+      "dataset": "CVC-ColonDB",
+      "file": "53.png",
+      "sha256": "5cefce2c346d37a53d2c39fa8efac9c28852f2d56084dffdd4b6d20efd65f7b8",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 360,
+      "dataset": "CVC-ColonDB",
+      "file": "54.png",
+      "sha256": "d011225ed8841fcb1817fa2a78b535b98100299d4a54b622f343320837d8b4d3",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 361,
+      "dataset": "CVC-ColonDB",
+      "file": "55.png",
+      "sha256": "5a6a3720a5dcea0f0e2200ff624e16a7a5ea7b9ed63eca3a6462ea63c5dd2b4e",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 362,
+      "dataset": "CVC-ColonDB",
+      "file": "56.png",
+      "sha256": "52604f3c7c6c96c86d7552fcca889a1ad7f4f28da239de174859d05d69e66682",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 363,
+      "dataset": "CVC-ColonDB",
+      "file": "57.png",
+      "sha256": "53fa6d7ecca421b74e80b9d7c1f23ca2ba4d1b836553147d84b77eb1c0ea8851",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 364,
+      "dataset": "CVC-ColonDB",
+      "file": "58.png",
+      "sha256": "81f0a08230d054ac10b2dd518f80f293455a00cca8435d905a421893bf6b9fbb",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 365,
+      "dataset": "CVC-ColonDB",
+      "file": "59.png",
+      "sha256": "fa74c9431a9afeaa18852c564cb5812001f4deff402387a8d4eb19edd8d3a2e9",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 366,
+      "dataset": "CVC-ColonDB",
+      "file": "6.png",
+      "sha256": "8f72d83b8a84c0dd4b4624713e375fb72beaa3332c1f73206997480276ad397c",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 367,
+      "dataset": "CVC-ColonDB",
+      "file": "60.png",
+      "sha256": "e902cf1af5d467908f80561d0132df5fb6dbec3688a46da2595b5997202d6bf8",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 368,
+      "dataset": "CVC-ColonDB",
+      "file": "61.png",
+      "sha256": "f5fc475d0694b717a293e128f0a1fb70138a643bfb71a804f1895821ab23134b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 369,
+      "dataset": "CVC-ColonDB",
+      "file": "62.png",
+      "sha256": "81bc8e0391e102a713036dbb72b98bcd855a39acb97bc7a974ff5bdbf781b628",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 370,
+      "dataset": "CVC-ColonDB",
+      "file": "63.png",
+      "sha256": "f467bf9d9549e4a64e06ae096a966ce5eaa815cc3fbfb4e451c50440b68f0579",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 371,
+      "dataset": "CVC-ColonDB",
+      "file": "64.png",
+      "sha256": "43876214c6c6d5339920f1d63da6445545901695288706a12a2aa5f9772f1bd0",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 372,
+      "dataset": "CVC-ColonDB",
+      "file": "65.png",
+      "sha256": "d42b7a91705105306cb0a229ddeed5868f3e786be3dd56b2deb318ffec0b584b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 373,
+      "dataset": "CVC-ColonDB",
+      "file": "66.png",
+      "sha256": "28be90508849b05dd396fdeb5b80aa02778587869a9715452188595a29bd91e5",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 374,
+      "dataset": "CVC-ColonDB",
+      "file": "67.png",
+      "sha256": "1f4210366c2a74601901776ea1544dfa4612f1c8a017c7ac8e881491b98f57e1",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 375,
+      "dataset": "CVC-ColonDB",
+      "file": "68.png",
+      "sha256": "3eef0d79d87b63d63144fe857d091cc96c34ecff9c7e32da55bdcd63c5e1f10a",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 376,
+      "dataset": "CVC-ColonDB",
+      "file": "69.png",
+      "sha256": "fa8e0ca6a7b75c6b4b2923e208c2e27095d8311d0fdb206c2f3004cd42fd196b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 377,
+      "dataset": "CVC-ColonDB",
+      "file": "7.png",
+      "sha256": "5beef46862c0c8e24c91de612345dcc6a78887fe087b2b3916b279661b3d5e76",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 378,
+      "dataset": "CVC-ColonDB",
+      "file": "70.png",
+      "sha256": "39036f2919b6080fc52b942ea2781db6dfcad196a2c6e11a055ac19c489d05aa",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 379,
+      "dataset": "CVC-ColonDB",
+      "file": "71.png",
+      "sha256": "2ab459eeaeca105cf297c45163888a100da26a051c9caecba81159c2ce72cde1",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 380,
+      "dataset": "CVC-ColonDB",
+      "file": "72.png",
+      "sha256": "816f33ff23d3054d3a2a2d99a44a9de71e565b5c5d923d6aa5ec4481b0d5b596",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 381,
+      "dataset": "CVC-ColonDB",
+      "file": "73.png",
+      "sha256": "be154075db122ed654c8247084731e34de5cd0f7c616367eca1ac5d71cacffe3",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 382,
+      "dataset": "CVC-ColonDB",
+      "file": "74.png",
+      "sha256": "4128cfec8f016b3c43b728292b9fb4aadde114c0e99e7aa6d0f0029773290565",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 383,
+      "dataset": "CVC-ColonDB",
+      "file": "75.png",
+      "sha256": "a302b0d910631b8169c7cabb4cbe46cb302ac45fd8d8dc5a52d7dfb743c4eb60",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 384,
+      "dataset": "CVC-ColonDB",
+      "file": "76.png",
+      "sha256": "822b93f11038f9d0e96510d666502ea9d0abef41ee0e0eea0619735733fc7e2d",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 385,
+      "dataset": "CVC-ColonDB",
+      "file": "77.png",
+      "sha256": "b3a660d4a366bd30deed19bd5b0b88b50ea5b41c0617d50d846a65738b5664dc",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 386,
+      "dataset": "CVC-ColonDB",
+      "file": "78.png",
+      "sha256": "633e5e0c60e61d64de613c3282506a37e60646e702fefb061e369cb39895bbe9",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 387,
+      "dataset": "CVC-ColonDB",
+      "file": "79.png",
+      "sha256": "c0f33bab2d2af3b205fb9a10b159571d106201392e131df0415e982a1945d891",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 388,
+      "dataset": "CVC-ColonDB",
+      "file": "8.png",
+      "sha256": "8f112139e210c3a89bb5cbe1260e24065a17067e340cd9aec22b6a18b5ca0204",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 389,
+      "dataset": "CVC-ColonDB",
+      "file": "80.png",
+      "sha256": "a6d6cce3fb51dbea67b56766289d8871db1759641c446770cc88e74a126ec513",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 390,
+      "dataset": "CVC-ColonDB",
+      "file": "81.png",
+      "sha256": "da7530b9b257a13e6eec2bbcb9163415385cb5814307e3f7d930b3d961a53a87",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 391,
+      "dataset": "CVC-ColonDB",
+      "file": "82.png",
+      "sha256": "11b190e2f4e1f175a5661b10c443fcdb3b68ea4026a3532762a4d4355212f8a1",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 392,
+      "dataset": "CVC-ColonDB",
+      "file": "83.png",
+      "sha256": "6dfec7bc2ea54a949baafd3d5df5c403aec5a069095eb087573784677a8d2807",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 393,
+      "dataset": "CVC-ColonDB",
+      "file": "84.png",
+      "sha256": "06b68de0e9a341277ba1c5f62d1dd2c23ab5d836a7112bf56ecffe874cf26730",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 394,
+      "dataset": "CVC-ColonDB",
+      "file": "85.png",
+      "sha256": "6a2b29162603acab81f812d44fe09f8fb8cba96f331e53d36a2da1f167b152a1",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 395,
+      "dataset": "CVC-ColonDB",
+      "file": "86.png",
+      "sha256": "6e6cc987b9d6a7118af6337c503101ad81c6a7dd80917fcdfd1343022e7b4d4f",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 396,
+      "dataset": "CVC-ColonDB",
+      "file": "87.png",
+      "sha256": "054e577880f6e852cb3cab91da2bcc726150819b9562b94e861bc00611967d13",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 397,
+      "dataset": "CVC-ColonDB",
+      "file": "88.png",
+      "sha256": "2653fadd1194be434646fa91b946e55a3ef4d2b4d1f46eec26495ca4927d19a4",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 398,
+      "dataset": "CVC-ColonDB",
+      "file": "89.png",
+      "sha256": "c956a43294dd305dd2277a76b47b914927c8312e9556d2330c435a9babaa39cd",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 399,
+      "dataset": "CVC-ColonDB",
+      "file": "9.png",
+      "sha256": "15a2b10f3e357a6e2d342678a4a2600eb9b0bc0dfad4f84b857ad604a89637ea",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 400,
+      "dataset": "CVC-ColonDB",
+      "file": "90.png",
+      "sha256": "1026977c5db48fa16c1f71b1105c98352e7a346a9f8bafcdd92bdbacf839f01e",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 401,
+      "dataset": "CVC-ColonDB",
+      "file": "91.png",
+      "sha256": "89b4028a13c038f593914fbb47361e199e29768e9b8364fc912b2c1e852ea15d",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 402,
+      "dataset": "CVC-ColonDB",
+      "file": "92.png",
+      "sha256": "8fdaca7b58934a93a9ccd2720a79c6fd52a3a9bb71ae4b2b7506e1cb1062d67d",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 403,
+      "dataset": "CVC-ColonDB",
+      "file": "93.png",
+      "sha256": "07ea7696a0550293d24552a5df28a18c21e455b9b6c858f6b81749e95b40ba07",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 404,
+      "dataset": "CVC-ColonDB",
+      "file": "94.png",
+      "sha256": "d4e5dc7da2ce94136c917967205c861aea85815591215c26e36af5747ce1c443",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 405,
+      "dataset": "CVC-ColonDB",
+      "file": "95.png",
+      "sha256": "5505b2e174291c77d97bb3866037743d696773c9a2d02dde6c0c81efa9ef8d02",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 406,
+      "dataset": "CVC-ColonDB",
+      "file": "96.png",
+      "sha256": "295443e4fd1e0bd31ac371a9c5b98ebe653d80f4e4c79cec6643369b690a619b",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 407,
+      "dataset": "CVC-ColonDB",
+      "file": "97.png",
+      "sha256": "6de0755529a6d77078e00a51607890369678873dd83532c2d73a98dfbc3683dd",
+      "width": 574,
+      "height": 500
+    },
+    {
+      "id": 408,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "1.png",
+      "sha256": "a47527b9300079c168a9add3e95347d38d9cf4a0186a3d16b97ce77b6b7c3c80",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 409,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "10.png",
+      "sha256": "0676f372c08453f61abdaa84f21f43fbbb641b2800a68ee60821c072851ecc16",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 410,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "100.png",
+      "sha256": "462b3c2ce41228db589523f0aa49b66b3a431eba98a5d650bfb5e5a4c7888285",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 411,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "101.png",
+      "sha256": "13e6420f0cec89d80859c0ba31c1cf6a394497b7d653c654ae18fd6b48fa2b4a",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 412,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "102.png",
+      "sha256": "68b1ca778b165679914adc6cd096641a7f2bcd56b521468cf43b92c0ac427346",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 413,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "103.png",
+      "sha256": "8a34ad7809766394cc7fa5325801dbf9c2e2d70057ff711dd96c7aeeabd3cddb",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 414,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "104.png",
+      "sha256": "9658174d40ecf033a927f7d0949ccc4dcacde12d6abc04d763a13be2bda92dbb",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 415,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "105.png",
+      "sha256": "d9d94b6c8f9bf4b2b5a32b600ddfb6e18ae4ceff577cabf45b7f5af984d30444",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 416,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "106.png",
+      "sha256": "b17a6ed84d8f5d802d4ea32020ef5ba91e2a6b30b41b2a77ba5b6e3f1a3ab407",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 417,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "107.png",
+      "sha256": "4198c70d91c91cbd0ad4a38c88a68d9e26070d692884b9d45b418f5a0cc9f298",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 418,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "108.png",
+      "sha256": "b7caac31c85453725e7560ab313cc21662a20085499e59af37414cda87731618",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 419,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "109.png",
+      "sha256": "caa3de6fc932757bd7eef5d3a6f6a5169b20c8830cc0f1c2e9e33fe4133c9b7f",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 420,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "11.png",
+      "sha256": "6cb48547f2c447292ccf12acc83d8d8df68e01d5077e70277dc0ac4c4d782483",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 421,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "110.png",
+      "sha256": "eb06472a23decc177942e8d2f37895706269fdc1db706a46a8e3ec490daa92ea",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 422,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "111.png",
+      "sha256": "3b2098e1d7807dc7973fcc33240c45a00690e19daaadc1ec32ac645c7f6fcf8f",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 423,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "112.png",
+      "sha256": "0eda15e44e214b1148ef10c828e1c7752914fcbd15578656bd6fd611d01dc11a",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 424,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "113.png",
+      "sha256": "2c7f298709d1fe5240f160926a6bd3f8ee588109ad080f6512941731699858a1",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 425,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "114.png",
+      "sha256": "638202e2b28a594c1b4ea423f81f996ad07ae5810311677c5e7277e98e85b357",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 426,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "115.png",
+      "sha256": "0a85162461309d243da92630bd15e4efb8e995adbe305aae19afeed48f5dddf7",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 427,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "116.png",
+      "sha256": "8afbe3792b28520459d06c27f94f9706d69b61739654bc5894c6de8791b5a812",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 428,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "117.png",
+      "sha256": "7b83d4435a03a6acd45ef38a7e7a5cb4b60ec26e182c70facd1a46f0755a1e77",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 429,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "118.png",
+      "sha256": "1575cc693797a6a13ed728ba01aac74f45aee4ddf4b66a258169c5a9b43f6bb1",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 430,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "119.png",
+      "sha256": "db4dc913a04f3cc9399dfd5660821b2bb91a41ef37b492c3805dae02c04eb60b",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 431,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "12.png",
+      "sha256": "8fe557259e202e18b58311eb9feae6d45990f8402b760b1ff45a2d834ca38c83",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 432,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "120.png",
+      "sha256": "4e33bc28c95ce9a544fbfc59e1c5950536728f72f9720037a17b9eb97401dce9",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 433,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "121.png",
+      "sha256": "781c8cdb770bbf29bd73a4e61adf66b58241d8dc3c18431cd3d6b3016a3f7bee",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 434,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "122.png",
+      "sha256": "e02f67b260497eb599cce451f6bc1047763a6312acb3ad2bfa665e2bb7b7ee13",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 435,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "123.png",
+      "sha256": "e2c3b968096b8d193f6655f6fdc13a987c7d859bfb58470eef20b2241ed579b7",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 436,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "124.png",
+      "sha256": "9433de523b0961175ff3b4fce21ed8d67cf051eff4451d381cafef72907d21f7",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 437,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "125.png",
+      "sha256": "4c168ab17eadbbf0b7dfdee0171464a9e4202282d8ce4b85fafc30540dd110dd",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 438,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "126.png",
+      "sha256": "bfe7bfb03a4a23f668423a39e74a969f667b29caaba83b29218de1f98b324a58",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 439,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "127.png",
+      "sha256": "3a8f3edf0a349f8ab4c7ac7d1001abb4bc5a92e171fb28f831adceb1121ede8d",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 440,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "128.png",
+      "sha256": "81e1476bba217dcaab53710a625ad721bb64683b6ab68720ecbf4027de820610",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 441,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "129.png",
+      "sha256": "e0c793f396e975793153cbde6c9975da904628a06eb24d70c1b3b83d6dd7f130",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 442,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "13.png",
+      "sha256": "a5f9a66055a5ef79c8182f1a31ccff4cfbf5b10c1c660ed67133a430d1dd4c3b",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 443,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "130.png",
+      "sha256": "f1a045763ec578861139183ddb7bfd00c10e614a12dc9a7e3d12ddf945ce7c2a",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 444,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "132.png",
+      "sha256": "8a72de5c9c254f95e9f87c8e1e591bce73e8b934843df368596a45afb74dcf8e",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 445,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "133.png",
+      "sha256": "acee9cb6ee3773318ff8b1e37bf1596993dcc25af857af637c7460f8817c6988",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 446,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "134.png",
+      "sha256": "b4c57b4e4d878b3d4abeb1c2be6a2ae9b92dd7c4ea1caa7389371a5eb9ed846e",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 447,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "135.png",
+      "sha256": "844c7a5d453c2b494c16cde8bfc93e7e4b0a9c59285dc40932cdf1d4e872ae8b",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 448,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "136.png",
+      "sha256": "1baf89876c57e24d5b96a4a9182b5216f686f2e91a793213a107ac204b94802e",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 449,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "137.png",
+      "sha256": "4e210f1ffc69e550bae0c2e3361713d192aa4b9c2de79fc014adc06932d944fa",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 450,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "138.png",
+      "sha256": "690cb309419155166e5b6c2fdcccd968e9bf3f4b82e3ce4ef9074a74262b9950",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 451,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "139.png",
+      "sha256": "a16b2e51bff58a65df1ba9dd4a870905a7505ec2fbbbff438a608a74ec4cb789",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 452,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "14.png",
+      "sha256": "18b77fea9b43012d456f8bed1e75f5f71234fcb7cff40ff803c87be76f581454",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 453,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "140.png",
+      "sha256": "3f3219388cb02e7ad2eb17032fd2899385ee5900828a2a3c983f43532eab593a",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 454,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "141.png",
+      "sha256": "d0e44ce562863ddc3b5c88b286d1634601e2b8c483f04fbaa169ffdc1e3dd4e2",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 455,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "142.png",
+      "sha256": "91f7f4645ed3d0fca4dcb8ea7cb7ad77866b27483c81ad54f83b478d0f371ddd",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 456,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "143.png",
+      "sha256": "ed1235ffa28175ff62431629acd8882d2eb3e185ee5ad64fd95336870c62a723",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 457,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "144.png",
+      "sha256": "513d3547bcefc85e96cff81a24e0fd1d18352607846d80a211d8daa3c7681063",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 458,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "145.png",
+      "sha256": "901fd58b858cc2340650167b12ae003507d5cf2c05da04677c790115dd58e78a",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 459,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "146.png",
+      "sha256": "dff92bd02e843531095018cb08f560a193d6253da777e4d83234b1ae0d138c42",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 460,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "147.png",
+      "sha256": "667d1abcb897fd7d8cd669f1c49d709429e26e1ba9a68ebae8ceb9a18ba75248",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 461,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "148.png",
+      "sha256": "c579340fa0d727f45095adbae80ebd2227691a84e29c3bd524736a2bcf2a186d",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 462,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "149.png",
+      "sha256": "464a9f0cb68c0b5dd33fb04ac681362446a37b91e2659726fffc11c4da26b6fd",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 463,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "15.png",
+      "sha256": "2c13eddc4ed62134935a64ed9102c465c9f6ac65868ed367f6b9a3e3e4b0d344",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 464,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "150.png",
+      "sha256": "8f4db408972e4fab55d3730f6ea4f9192ed43b101cb8fc43d9c669fc52cbd736",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 465,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "151.png",
+      "sha256": "c7e2dd118b372746c27cc31f0356fe1afd395297df9e4116f54a49ad74f73ba3",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 466,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "152.png",
+      "sha256": "e24dd0272a74bc9cd7feba36ebea96866b3ab0d3ef4c6f1a66c101bb149e27ad",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 467,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "153.png",
+      "sha256": "7aa6b3e7a053a8354c194cadebfe28b75c1aa380bc6e156fd02b8b4dd3dc0ebe",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 468,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "154.png",
+      "sha256": "3152afa00d192b9eed17dda44f129992f615eb1fe27f88c6eced8037a4bf2611",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 469,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "155.png",
+      "sha256": "8b1b973542e43d8bee190198ce32f77a5a299758f41c354a19ae035fdff3e219",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 470,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "156.png",
+      "sha256": "1e3bba64fe6803954ed60eb60afcc30cf888ab60a453c7745a2dc762e4435179",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 471,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "157.png",
+      "sha256": "a3603efc06b5325842f72056df37c62ee0900546b14f9333eb9f5b34fa16df3f",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 472,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "158.png",
+      "sha256": "1b33c337939b2734f4430a6fa50542054aeb24338cce869073792936a5498444",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 473,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "159.png",
+      "sha256": "5945a40f376316e44f4f2979a77b9bfbfb46954c591fae9de5b5cd446a4f5f68",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 474,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "16.png",
+      "sha256": "7f10e03bae6ac747f847b9f9684129ac6fd1e3d8ba9786c619b1234f72a34191",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 475,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "160.png",
+      "sha256": "9ed04dbe573f1362c43be5a41b1c990cc847a1c559463afb2e3c0629ba4d2bde",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 476,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "161.png",
+      "sha256": "6aa330885be48faa689e6357ee353a7675605a01b7631299e19b7bf6f0aa9b56",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 477,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "162.png",
+      "sha256": "1061a13915f80052da3cd1cda5c2980539deef22c2f3bb826782aa350d9e3a17",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 478,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "163.png",
+      "sha256": "f172af2b3eca9c214869c17c04f459c577cbf4b807885ea6ad3c84f34166df3a",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 479,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "164.png",
+      "sha256": "9f225e0cde003f68d4c257c8dc5cbd22d1f2e9716d6fed6216a7c4fd56a1dbd4",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 480,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "165.png",
+      "sha256": "6fcff751b95c68c058d376bcaf3d6215f80cd7f0358ed2fe7dd0d3f555688be9",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 481,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "166.png",
+      "sha256": "c740786621ddd3f907ad7d1f43368af5b7a8800c8bd18fc636cc41fc84a3fd82",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 482,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "167.png",
+      "sha256": "9237c897e9a2b5524934c09a63ebe2d2e7e5c8caca09e5abdd65d48ab3855623",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 483,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "168.png",
+      "sha256": "0b6a9d4c3878d7387aebac9c6f7102069dce05d67adcae52ffd0e29bc875b0b7",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 484,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "169.png",
+      "sha256": "b82354258be725f2bb13e1cc8fc67e4b5b49d747ab83c90e839e9bd8ba9bb259",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 485,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "17.png",
+      "sha256": "13e1ab3deb6c02684b826cdb1298ac6f151caf72a26390b2d45019282215c36c",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 486,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "170.png",
+      "sha256": "96c940702ca07b973d7b2c827aaf74b64ce2c84af8ca5914f2fc29f9461bb58a",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 487,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "171.png",
+      "sha256": "4d857345d6646b42602356913f4c23e36d781cf4ca5e31f77490f77a6c33a79a",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 488,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "172.png",
+      "sha256": "547c8b7e3ce3d26f6db8c86a0e90ee5f99ff8daed129444a72bcb6cf6f32a92c",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 489,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "173.png",
+      "sha256": "e0edbd6d3cbdfc8ee3beefbd193b439b652f0e58a447e9a38b7b447cd20aedfb",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 490,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "174.png",
+      "sha256": "e2e040cf856eb42b56eb7100047a047584de1643e32a1598c9f0fec42882b47a",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 491,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "176.png",
+      "sha256": "83566ab3749486e6f5e6884b252a9e67cd01beee8a05b9801bb311c23277b491",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 492,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "177.png",
+      "sha256": "45863a252d62151512c7f058b779d225b81603db1c12715a4cbc1abeb3e383cb",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 493,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "178.png",
+      "sha256": "2505f516630e04c09ab7b0f978af4fea35c555d9da37a5d2aea4cd9034bbb2b4",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 494,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "179.png",
+      "sha256": "f8dd34f3f8b047248ca1c04a29fb31c921ce8fa3c9dd8bd632c11058d0ee0df1",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 495,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "18.png",
+      "sha256": "d8987630a33c645acb2fb4d1f992ea69797f6dd2e51efdaeb9ce7fa52b3ebaf8",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 496,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "180.png",
+      "sha256": "f44a0c2fcf040c7bb350a9af4da5ef2a7f3cb13499801e2e3bc959b83c4562ac",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 497,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "181.png",
+      "sha256": "c5d6ba1a1973175b4f6065fb0dca13f52c1026c1001df980c98ba0ffc1d765e3",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 498,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "182.png",
+      "sha256": "0ed0a5750e8a43c81debbb50d8fe9312387122dab17242c24a666dcacfeb3705",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 499,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "183.png",
+      "sha256": "608da9669a9f5f8372003bf4d01357be148992784eab064d3812dac3b96ed258",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 500,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "184.png",
+      "sha256": "f281ff14ae64f0fd3caf1842ee19ecacceecbeb9d9d95bbf32e449da4fd1e652",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 501,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "185.png",
+      "sha256": "3ffb3df657eeb21f6d2348dbe0f8431ec4c2d5d72fc4c44539ca117358d6dc06",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 502,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "186.png",
+      "sha256": "11bcd1cdc2d256fb2fed3808269369f450e886c7061c414fd1d4d986152ebd6b",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 503,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "187.png",
+      "sha256": "93938b62f6b75365f61d9c80f36472db1527b76fedcf7763da5359d62073820c",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 504,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "188.png",
+      "sha256": "93957de3679aa8b37c0bd3f7252b1177088ed6c0bf46200ff044a4af0432c723",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 505,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "189.png",
+      "sha256": "11168c2d87638bdf618f10183aff21b15913e595400c5b2dd7cfa0331e8f52ab",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 506,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "19.png",
+      "sha256": "2da0c3445ac37ebb15388bae50971c1f888ca860ec0e58f954c4d4a78ffca5a8",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 507,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "190.png",
+      "sha256": "4b4683e42014b214d7dd1444c1bbb555e87521d381d6799e50a0ab7b83eaef28",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 508,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "191.png",
+      "sha256": "80c90904eb813f5e6b0359b60cd6d1cf734719fe95966da840bbed10aef4be1f",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 509,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "192.png",
+      "sha256": "d3ca3a7bc3adc99a462e92e6b5945548faf599a711feb03d8ae8fbf3eae85175",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 510,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "193.png",
+      "sha256": "3ffdfe31af43c23c160b21885edad24ec8bec9f8b7ff547f3591e83dd6b9f430",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 511,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "194.png",
+      "sha256": "8ea40b5a20b1b5725926f87b2f29d52d91f152e266b8c11b00140de97d04043c",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 512,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "195.png",
+      "sha256": "2d2e9de1ada34c91842b61b61d4e1584012e91a8f8b48d8742cd921182214eb6",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 513,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "196.png",
+      "sha256": "df84176958f08bc89cf53a1b6cec2d8bc5eaa55e931cda234d2c16360eb21af7",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 514,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "2.png",
+      "sha256": "f653434f98c79088c1dd46e61467ed930cfa6c98fd47e687b3c57e0fa67305d4",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 515,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "20.png",
+      "sha256": "e538fbdb795151477b5ea7f74c5e68f6237ce24fa4b611ea723516a452260dc1",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 516,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "21.png",
+      "sha256": "91cdbc192069116af4f900c72692c5ba62a8d4221cd473da5ab156bbc54eacab",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 517,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "23.png",
+      "sha256": "f333e8cff2c7a8be976f53d8fc42e8f1c2ed28701fe77965800451dd94461d5e",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 518,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "24.png",
+      "sha256": "4b3f89c027cbb6b099153d2d41f06a7db68af2a5cf90a037a5b0d737523605ff",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 519,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "25.png",
+      "sha256": "435f470451c1f7384ff7f6291d23d02073c459f747a4390e963adf81033d25a6",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 520,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "26.png",
+      "sha256": "dd6ed873d8692ae470e8191092bea12cbb12227e817183205157503eee7b38c5",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 521,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "27.png",
+      "sha256": "c7780e3813d3c4514d4de170554c92f5362be09d3166d0fbd48481c6edf68040",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 522,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "28.png",
+      "sha256": "57ff6e69a004b1521b5de690153319954dd9ff6cb1975ad3cc3359855dd79e3d",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 523,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "29.png",
+      "sha256": "74592ea88ded619de4c884095b31c9f381afb54fd0a50548e3d8f859c6c47f48",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 524,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "3.png",
+      "sha256": "bd5f9cf16d090610e3eae5d617367e333e1614e9b08636e50eebb0572a2709c3",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 525,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "30.png",
+      "sha256": "9ad48c374a665260b06b6bccb4e53eeacd83c307233f72eaa423da81b56c6534",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 526,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "31.png",
+      "sha256": "a2de46465dc9571883342213523e3e7767d3d47109bb2ca4639908e22ece4409",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 527,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "32.png",
+      "sha256": "fba7521d2ca0c4d4a76dc98ff775919a3b6127fa41a2950af5fbaf9de5fade47",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 528,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "33.png",
+      "sha256": "95e901f85d42b60114c95f33b6ec4c2b12584103c03df2e29fa94a750eaa3893",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 529,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "34.png",
+      "sha256": "55a27ccd85d77dc8cc113ca0229493026bb084d2067da45fabea213087de5a2d",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 530,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "35.png",
+      "sha256": "f281d4b735b9791ca8febf4d8ab4e25ef9f10bc44d7468d1410a4e46a18a4fef",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 531,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "36.png",
+      "sha256": "63f5e4a1b4c5c43b8c11c49a0c406f833efc817e25290259cd7414ae1258e03c",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 532,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "37.png",
+      "sha256": "b2067e4f8169bbd40f4ae7dc18d946ac5c2d8a039d5c62222e74856b450ab31b",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 533,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "38.png",
+      "sha256": "bc924662cba4c9d55c6991a4fe55ebad7ad809c951ebe6213255c7f567c8ab08",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 534,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "39.png",
+      "sha256": "05f3504a1fd1d680377b07d51c16698213bb32dd25da359308975506820f88a3",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 535,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "4.png",
+      "sha256": "67c7633e52e231a61572b792541c43f76ec7d89312f70fdf638631834a386ee4",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 536,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "40.png",
+      "sha256": "72a5de97ab503deb88caf6c4e6b024862caab57a327abb5c8a0611f30e67c5e1",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 537,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "41.png",
+      "sha256": "e8d44e0ac97305fcce4df27a6d3a03e98cfcd224a8b5f261a3eb06832e1d4c7e",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 538,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "42.png",
+      "sha256": "7e49566b37e5591a6e133c98174100db093b919a47cffe61295ef75a99f4088e",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 539,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "43.png",
+      "sha256": "60be0a98b469384d0fe6531ef6ad85882d901e16fdb6597ace5b43f756b1b0fd",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 540,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "44.png",
+      "sha256": "69d4f694ab518660fe69a4c7f22d6ed5050fc215efbfadfed5c2e1631104da0f",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 541,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "45.png",
+      "sha256": "0674150cb81f67866fb7c94005bec9c6ab9ee62ea1c35558daa9e89c254b8fef",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 542,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "46.png",
+      "sha256": "91d36fcc8de58e0a0358d431e62c7a3c2f8680a3438063c8f6ee0da2920ef073",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 543,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "47.png",
+      "sha256": "cd38504adef5b17e79a18275bc9a7525656c1f1be71b5664649ea5e00c49c4f3",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 544,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "48.png",
+      "sha256": "1509f540295a52e9a9e8d633f0d54cc28b29602a3076023cc246a726e01ac944",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 545,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "49.png",
+      "sha256": "7c2b4606a1701520c930d5d350318fb046d731742749ca2553b572e8ce9a389d",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 546,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "5.png",
+      "sha256": "82bf618d88bf50ac69359ae4b5b53dbab3491a490a9561c4594f4aeb136897c7",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 547,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "50.png",
+      "sha256": "85815061d1fb45a2c5df76cf1fa08e1d83da3c309f4d0d5227b0ba016ddbb5c2",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 548,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "51.png",
+      "sha256": "c10e8337a0b50660bf792e2f13f36f05342c28a04f781ba2a8d6212f6d709ead",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 549,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "52.png",
+      "sha256": "94f60edabbfa583af77f93e5b4d03ec29d81be4be5a9eccc33c8d63627121fd7",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 550,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "53.png",
+      "sha256": "9891475ecc762c6e7c0a89b827976dbbd34d722224e11fff5d0eb7b729f90842",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 551,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "54.png",
+      "sha256": "a5b24271a82311d0de4c628b812f98192f25a39301b0787d9523d4fb52d1bccb",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 552,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "55.png",
+      "sha256": "273d6a50b96dea97eb4e3a539e4c2680af6e566d0cd19af992f0c3a655c73b12",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 553,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "56.png",
+      "sha256": "5ee2e1647621d1375d8854bb2b3dec7846a82bcfce4a15f580c6ef71027ee565",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 554,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "57.png",
+      "sha256": "fd39fa45ffd921c1fe793ebee6fa116335767eda4a6448ec4d32d076745cc321",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 555,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "58.png",
+      "sha256": "e1b687dd267db2eb0a488c2ed5f3834e9aba0a7d31331f2dfa62946ba1aac303",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 556,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "59.png",
+      "sha256": "f66c70501373bc0145888666c8e978223ce009a8b489862ec739662a72d87f2c",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 557,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "6.png",
+      "sha256": "2108764a768c37870f080c8a339e902ba56c4cd3cafae2de17eeabd4998bf121",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 558,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "60.png",
+      "sha256": "4644eaeac5023c4d00a54455a8a6680bc5576a01b12f291d5aa56670ca3c5e66",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 559,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "61.png",
+      "sha256": "ee715e855d8fe6a4a89fef308a83ae95ead8600f88325269123966879cef9588",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 560,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "62.png",
+      "sha256": "945962350af1066aab30f71b7aa7b93731811196e9e1ac376721c893489e0ec2",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 561,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "63.png",
+      "sha256": "dabf81046b0b5d7e3068d4a680a689a2e281ad2afaab2c89bd1b397b586f294d",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 562,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "64.png",
+      "sha256": "3b1c04635095346d11403e0cf37774faff2dc5c3d4b5153582d90a8c2ea0ede8",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 563,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "65.png",
+      "sha256": "ee0e9225d2ebaead57d4d0b44c38b4868a146fbbec1ef212316dee2859389829",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 564,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "66.png",
+      "sha256": "95c662178bb7d9fe96d9ad46cbefc8626a402016bb1cbd37da23846c3fc6f855",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 565,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "67.png",
+      "sha256": "621b215981844471855bfe91a080ac9fd4ed8d35ba30d13e68b67e8c8ebadf69",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 566,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "68.png",
+      "sha256": "76a749f5d25767a5b27918a995143a1e4547bd49b8b184a927466b9915be2e8d",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 567,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "69.png",
+      "sha256": "ea5e1e9b10029175cceef569d414549359d05f8c14c75dc835b7453f3fb7c40f",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 568,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "7.png",
+      "sha256": "4796dab511d90debce5f4f9b9f3dcd0e59f113632631c27c2c4c3f2e60b26927",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 569,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "70.png",
+      "sha256": "a7cddaa4419efcac5da9b420e004e3e4f569aaf5d736cf730672f322f77fe3b7",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 570,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "71.png",
+      "sha256": "50a6a71227ccb569edded88222efa93b929efd27d48308b679bec06b6e27a638",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 571,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "72.png",
+      "sha256": "dd3b02eeee698d06feb02b1ebe9ccf26c7e24b548865fc03e690ea0f6e1da170",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 572,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "73.png",
+      "sha256": "d6f234eb51c8b47b8c102ca5f4b7fc7a2df413049ed655112b5fccaf1fe2dd1c",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 573,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "74.png",
+      "sha256": "5614c5995b47b318e64d48df8f0695323d4aeaa06a2b04619fe376d433b3fa36",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 574,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "75.png",
+      "sha256": "c1b8d5e5b520a95d21fd91193efd7af3bb6386dc4117b060839ccf49aba33a33",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 575,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "76.png",
+      "sha256": "8b833c8bf8ed988c5ef4de1d61387a542bdd8b27a661c866a7eac3f23c72e0aa",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 576,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "77.png",
+      "sha256": "ac6aa9bfe2452788ecf2a93eb20447298a6dd0c565005fb7e45ebdd9a441c336",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 577,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "78.png",
+      "sha256": "b482522dc0171b41069c62c4178bd7424beb3e1d74420304202ca607538da6cd",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 578,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "79.png",
+      "sha256": "c9403408b1b14bef198c4b0fc0af7b01dd00442eb4dbeb6ff5ebf296a86c1e4f",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 579,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "8.png",
+      "sha256": "8f8c80169fe8579a9fa072176f5bc91cd070c6f492251eb3ca6d54c5ddd784d0",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 580,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "80.png",
+      "sha256": "8c72539c8159c8d2de04d65ba210e1b57b573b8931364d29a06340fcecfb3353",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 581,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "81.png",
+      "sha256": "a4aa3d3ae0d596cf04611867289105f091c308a585ebf5f2e5f558d4f416b11d",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 582,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "82.png",
+      "sha256": "4cd3d6eedb800816eac1c000fb07244b21895e6632421f0c788a29cf53d3b321",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 583,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "83.png",
+      "sha256": "5ba365d750e8d8f1436ad4c7a19070acb9b907eba825824c029435558f54ea01",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 584,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "84.png",
+      "sha256": "3b89ca518a5f4d7415f717d61d2fbfc98d802982c6124645c45ab7fc8e632084",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 585,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "85.png",
+      "sha256": "fde3ed739ef8269f38a669855a8fcd3a5957407f4533c861195f84379b05d081",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 586,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "86.png",
+      "sha256": "b707e07a6f971c6bdc5d1278b2d664d1c8430c28158490d993dcd7f59545d1da",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 587,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "87.png",
+      "sha256": "fe95343c823ce8cde61de38801e1e82b3e2bf0a19df88f7dc0c643a3d17a2b10",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 588,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "88.png",
+      "sha256": "4fea146bad0a91d491f06e0d916bf2551c6025aca0952653204a135f5afda256",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 589,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "89.png",
+      "sha256": "196b187e76491f5b54c60e865cefeecc6bb619b01cdbc6279dc4f800f2b50926",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 590,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "9.png",
+      "sha256": "0f9007724d4c764fb0729475150224d4581d1fb67d99efd07ab402bb7d11a81b",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 591,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "90.png",
+      "sha256": "2edc096513c1a8b5b7fdf7e461c553e74d3b68b682f81df1bffd643988ec57c2",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 592,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "91.png",
+      "sha256": "9ddb5d1dc4432eb86b61d8ab48dfaf07b3e76f1f84e86f478148408ced5ae8a7",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 593,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "92.png",
+      "sha256": "33fa47fc5c3f90ea4d3516e9b897504c18581d7d41645d41b5e4437ce25505f3",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 594,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "93.png",
+      "sha256": "43169049b5ebd1a45b7175ce65bc8eb9d2a434619593ca35b7f2b6ceab59a267",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 595,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "94.png",
+      "sha256": "77e1dbf777b206e0c4c9a2699ddd675ec902fb4b259f6ad53bcd243d166d0a62",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 596,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "95.png",
+      "sha256": "bf8e97dfff369e9674fdd68e81257a84695a108bcc2a98951f57d82e6e722815",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 597,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "96.png",
+      "sha256": "43abd05e3fa0ab6e44f952df00ec6d7cd5d2019e90cf1374bb9d9deb67babbc8",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 598,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "97.png",
+      "sha256": "f702305ec1a2e99b8723070d197761a251613808585dd94e7489d3c9663935ba",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 599,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "98.png",
+      "sha256": "822a883d2ea571da966316a3b4ecf93013e816e5f8f9fa4478bc0d12b9c2731d",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 600,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "99.png",
+      "sha256": "d72628097210ff1204a6fb310fdaa74ce01b5ae29bd4af9e3f300304fe19370d",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 601,
+      "dataset": "Kvasir-SEG",
+      "file": "cju0u82z3cuma0835wlxrnrjv.png",
+      "sha256": "817b1da94ade667b85d2ce69141463e5943452ca31c02f5b83b586505f08b5b8",
+      "width": 626,
+      "height": 546
+    },
+    {
+      "id": 602,
+      "dataset": "Kvasir-SEG",
+      "file": "cju15wdt3zla10801odjiw7sy.png",
+      "sha256": "861d82164183968f8d63de12860ba79dccd07813ae2ab1964201dfaccb2311a5",
+      "width": 622,
+      "height": 529
+    },
+    {
+      "id": 603,
+      "dataset": "Kvasir-SEG",
+      "file": "cju16ach3m1da0993r1dq3sn2.png",
+      "sha256": "58ccc254cebdd7a29726411a5722bcf483a8eea853bafe9d8a3d30d8735ca7bb",
+      "width": 616,
+      "height": 528
+    },
+    {
+      "id": 604,
+      "dataset": "Kvasir-SEG",
+      "file": "cju16whaj0e7n0855q7b6cjkm.png",
+      "sha256": "5c1c8e613673b1c682ecc2d75f2b507589380a58717331040a98205c596dbce5",
+      "width": 626,
+      "height": 547
+    },
+    {
+      "id": 605,
+      "dataset": "Kvasir-SEG",
+      "file": "cju17z0qongpa0993de4boim4.png",
+      "sha256": "2198802fff0699bc8122c478ba6ed0e1c7a48af531bf007654ee427c2c75802a",
+      "width": 622,
+      "height": 529
+    },
+    {
+      "id": 606,
+      "dataset": "Kvasir-SEG",
+      "file": "cju1amqw6p8pw0993d9gc5crl.png",
+      "sha256": "fb4db7686518147fb500d251700478d88d01189e7606d1fc714958b0f597d685",
+      "width": 622,
+      "height": 547
+    },
+    {
+      "id": 607,
+      "dataset": "Kvasir-SEG",
+      "file": "cju1bm8063nmh07996rsjjemq.png",
+      "sha256": "997971e128d51e0c771b58727ab32e40eb30b83628ec9876a3e06076cfc32f37",
+      "width": 607,
+      "height": 530
+    },
+    {
+      "id": 608,
+      "dataset": "Kvasir-SEG",
+      "file": "cju1c3218411b08014g9f6gig.png",
+      "sha256": "f5b4104f15f93201bf2a7ef98fe31c3b0bb7852bf1ba038737b9808858e3833d",
+      "width": 626,
+      "height": 546
+    },
+    {
+      "id": 609,
+      "dataset": "Kvasir-SEG",
+      "file": "cju1cbokpuiw70988j4lq1fpi.png",
+      "sha256": "c1a2abc739b613f3ca49db9f6ce0b833512d84cf7d6c95ad1a727cd2c0183bcf",
+      "width": 615,
+      "height": 529
+    },
+    {
+      "id": 610,
+      "dataset": "Kvasir-SEG",
+      "file": "cju1cj3f0qi5n0993ut8f49rj.png",
+      "sha256": "9fe891ff8e8eeb20cfa89309a1a29aca4ea6f5cb20359aaa9c7c32b82163dc0d",
+      "width": 616,
+      "height": 530
+    },
+    {
+      "id": 611,
+      "dataset": "Kvasir-SEG",
+      "file": "cju1cqc7n4gpy0855jt246k68.png",
+      "sha256": "2b52cbb92555ecb8af09e41a5b2add48130428a46d89ddaebe3176122874e4d8",
+      "width": 616,
+      "height": 529
+    },
+    {
+      "id": 612,
+      "dataset": "Kvasir-SEG",
+      "file": "cju1ddr6p4k5z08780uuuzit2.png",
+      "sha256": "610be85d0b453926bfaaaa0dd264bdc76f4f10333c97e655a6efa3120a9a85eb",
+      "width": 570,
+      "height": 531
+    },
+    {
+      "id": 613,
+      "dataset": "Kvasir-SEG",
+      "file": "cju1f8w0t65en0799m9oacq0q.png",
+      "sha256": "08c7ef84aee724f890bd436d6ed0a231911d277a85153d475cb2c5b7ca266d0b",
+      "width": 622,
+      "height": 528
+    },
+    {
+      "id": 614,
+      "dataset": "Kvasir-SEG",
+      "file": "cju1h89h6xbnx08352k2790o9.png",
+      "sha256": "514b0e6f7ff1ab8a135eccec30a7e23bc572683f9f8e215485d58694902725c6",
+      "width": 570,
+      "height": 531
+    },
+    {
+      "id": 615,
+      "dataset": "Kvasir-SEG",
+      "file": "cju1hp9i2xu8e0988u2dazk7m.png",
+      "sha256": "c27c34dc48a1f57e66225e49e225dbc54cb0bede01da2f629ffdafe9d5726a9d",
+      "width": 490,
+      "height": 531
+    },
+    {
+      "id": 616,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2hfqnmhisa0993gpleeldd.png",
+      "sha256": "a47f5d5c5b0f9a47894d3f4eda5bdf002aafd31446f6d1930453828c15102059",
+      "width": 621,
+      "height": 530
+    },
+    {
+      "id": 617,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2hjrqcvi2j0801bx1i6gxg.png",
+      "sha256": "d520f38c5fc2be831fb5c742b8e755b50950863681c3d5b029e8e8b4e0dfe5e3",
+      "width": 599,
+      "height": 531
+    },
+    {
+      "id": 618,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2hos57llxm08359g92p6jj.png",
+      "sha256": "9de47141d8ea62c2c36f467bf3194397c9148232123d300d00adf23bb7bee199",
+      "width": 622,
+      "height": 529
+    },
+    {
+      "id": 619,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2hqt33lmra0988fr5ijv8j.png",
+      "sha256": "b420308a9696f8d7b560d6754c93c84d8e70194e3d96fa9c9ca5fee0e94df90a",
+      "width": 602,
+      "height": 528
+    },
+    {
+      "id": 620,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2lberzkdzm09938cl40pog.png",
+      "sha256": "942206a8072ee05fa9a2cd24d37f17dde2da58bae18a23ff9bf1ec6485e5dd4e",
+      "width": 605,
+      "height": 528
+    },
+    {
+      "id": 621,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2mh8t6p07008350e01tx2a.png",
+      "sha256": "eb75c58c82691cc274aeb657d444a01d86f62018f4fc56726b4ba426bea64298",
+      "width": 588,
+      "height": 528
+    },
+    {
+      "id": 622,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2nnqrqzp580855z8mhzgd6.png",
+      "sha256": "563817eeb1f755bc955052ad9ddddc8425a4880d62a61cc4a0262f99ab91b575",
+      "width": 569,
+      "height": 518
+    },
+    {
+      "id": 623,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2np2k9zi3v079992ypxqkn.png",
+      "sha256": "8b75721ac5d9ccff34b2515cb46846fc4b4077d02fccd3c4873d4d1b49f5ea3f",
+      "width": 603,
+      "height": 531
+    },
+    {
+      "id": 624,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2omjpeqj5a0988pjdlb8l1.png",
+      "sha256": "c7d778b0c981441659b648bf78687083907e70b0082542c546491e5f8bad7d4c",
+      "width": 566,
+      "height": 530
+    },
+    {
+      "id": 625,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2osuru0ki00855txo0n3uu.png",
+      "sha256": "99814d8cc1b6b2c510b7ba09802bc696daa845f1bd14c0afb1bac565e53c86aa",
+      "width": 594,
+      "height": 528
+    },
+    {
+      "id": 626,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2pag1f0s4r0878h52uq83s.png",
+      "sha256": "afce00a81867c6741ee6e1cfb03913d39304d3072cf674eb6051ff06c95b7f6a",
+      "width": 570,
+      "height": 530
+    },
+    {
+      "id": 627,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2rga4psq9n09881z519xx0.png",
+      "sha256": "14b0d91b01cd786e24b1abc23304a6703e864a03e33c3177b182d952bf0a0eb8",
+      "width": 622,
+      "height": 529
+    },
+    {
+      "id": 628,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2rmd2rsw9g09888hh1efu0.png",
+      "sha256": "0608e987bf422d67d3462ce287cbbee3516372d9d82fd921fd6a66fb42adef2c",
+      "width": 570,
+      "height": 531
+    },
+    {
+      "id": 629,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2rqo702wpx0855fn7d5cxh.png",
+      "sha256": "c5964310e52b1e9168d5c6ea895b748be5af34606bc2ca175817d7e21bd7e716",
+      "width": 621,
+      "height": 529
+    },
+    {
+      "id": 630,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2top2ruxxy0988p1svx36g.png",
+      "sha256": "d18e1bc439c677e3cf6c1ee26d535e959c321e63905fb639d9636ea4c5668efe",
+      "width": 570,
+      "height": 530
+    },
+    {
+      "id": 631,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2wve9v7esz0878mxsdcy04.png",
+      "sha256": "2fda55a274f7f3dd943b1474d1cd0c20cebc827b6d3c88551d669f3b6d2baf5c",
+      "width": 620,
+      "height": 529
+    },
+    {
+      "id": 632,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2y40d8ulqo0993q0adtgtb.png",
+      "sha256": "f2e82c695e30a67b928ca873108516f502c3aee91bd4c9e85d012731d89b2660",
+      "width": 617,
+      "height": 529
+    },
+    {
+      "id": 633,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2yi9tz8vky0801yqip0xyl.png",
+      "sha256": "79b63866b331105bcb2d83380010c45c814005187fe4888de11823751320e31b",
+      "width": 616,
+      "height": 528
+    },
+    {
+      "id": 634,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2yo1j1v0qz09934o0e683p.png",
+      "sha256": "c3013287720521adeeb6dc1411d34d61c3fff74a4c29d3d3ece25a980b4c85cf",
+      "width": 626,
+      "height": 546
+    },
+    {
+      "id": 635,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2yv4imv6cz099314jveiib.png",
+      "sha256": "5fa94aa10a9e5eacbd8ea97ad90940028219c9f04de52006e1ce6ca88bda985d",
+      "width": 621,
+      "height": 529
+    },
+    {
+      "id": 636,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2zp89k9q1g0855k1x0f1xa.png",
+      "sha256": "3fcf77e1afd4ba4f7a3eff2c9f3db0e0223736bf77e3cbbf7a217420dfd7e7a0",
+      "width": 622,
+      "height": 530
+    },
+    {
+      "id": 637,
+      "dataset": "Kvasir-SEG",
+      "file": "cju2zwg05a0oy0801yr73ig7g.png",
+      "sha256": "e80c58bd445aa5cb1ec6a57d342a1b3918ab495a1402622085f388f249c5df89",
+      "width": 599,
+      "height": 531
+    },
+    {
+      "id": 638,
+      "dataset": "Kvasir-SEG",
+      "file": "cju30ajhw09sx0988qyahx9s8.png",
+      "sha256": "fbd69bfe93d6481418ab998202a74507ae3267bcce8cfc0adf9a7aa50ff71ab0",
+      "width": 622,
+      "height": 530
+    },
+    {
+      "id": 639,
+      "dataset": "Kvasir-SEG",
+      "file": "cju30gxjq0djk0988jytm49rs.png",
+      "sha256": "4a0fde1238f727ca00cfff9fd5f5292b92f8506bf3943f598b44dc4747be7b09",
+      "width": 622,
+      "height": 530
+    },
+    {
+      "id": 640,
+      "dataset": "Kvasir-SEG",
+      "file": "cju30j1rgadut0801vuyrsnt8.png",
+      "sha256": "2f3a2785e3980c24c0a0b87242b021490b3d1e9eaa2ceb99811756e6ccb0f6b3",
+      "width": 570,
+      "height": 530
+    },
+    {
+      "id": 641,
+      "dataset": "Kvasir-SEG",
+      "file": "cju31w6goazci0799n014ly1q.png",
+      "sha256": "68f5eb38d1fb075145ce97b8631b7fde5f17959f160ba9878ca465537954b121",
+      "width": 627,
+      "height": 547
+    },
+    {
+      "id": 642,
+      "dataset": "Kvasir-SEG",
+      "file": "cju32srle1xfq083575i3fl75.png",
+      "sha256": "c4088be5d59e7ac3d334d82dfd9a223c8e6ae5625f332e00c6216e7ccbdcf344",
+      "width": 626,
+      "height": 547
+    },
+    {
+      "id": 643,
+      "dataset": "Kvasir-SEG",
+      "file": "cju34m7h536wq0988xz7gx79v.png",
+      "sha256": "63641c4ed4988f9c6dd536b9d6534a7aa4056280d8f5cf3d6b699bd3546f5e5f",
+      "width": 617,
+      "height": 531
+    },
+    {
+      "id": 644,
+      "dataset": "Kvasir-SEG",
+      "file": "cju34xspwzenf0993cyzajv9n.png",
+      "sha256": "406fb91f14897054f8f1400b258b564aa39e18da49a7537553dded2d90ec811a",
+      "width": 626,
+      "height": 547
+    },
+    {
+      "id": 645,
+      "dataset": "Kvasir-SEG",
+      "file": "cju3tp94kfstl08181awh6z49.png",
+      "sha256": "bcae753df04e338a374de08a23aa08cbeab4197d676620e4e424433f947781d4",
+      "width": 593,
+      "height": 530
+    },
+    {
+      "id": 646,
+      "dataset": "Kvasir-SEG",
+      "file": "cju3uhb79gcgr0871orbrbi3x.png",
+      "sha256": "11b23335b9fe1bf9041b63cf78ddb85bb7a681bb004580e93b3157de513c6069",
+      "width": 622,
+      "height": 531
+    },
+    {
+      "id": 647,
+      "dataset": "Kvasir-SEG",
+      "file": "cju3v11mrgwwb0755u242ygye.png",
+      "sha256": "d4829c2604c8f0c2088696db8fef5639007077b968c5017572b57b35b59953aa",
+      "width": 622,
+      "height": 530
+    },
+    {
+      "id": 648,
+      "dataset": "Kvasir-SEG",
+      "file": "cju3x5u2tiihx0818914gzxy1.png",
+      "sha256": "5789a8581ef738b69149959d9cfeec7400a3825c54a4a80cbb69ada0fba1da22",
+      "width": 622,
+      "height": 530
+    },
+    {
+      "id": 649,
+      "dataset": "Kvasir-SEG",
+      "file": "cju3xga12iixg0817dijbvjxw.png",
+      "sha256": "ec4d7bb6935d4d670c57d71840dd769c1243c2c35f27194e6cb33750c37eb415",
+      "width": 622,
+      "height": 530
+    },
+    {
+      "id": 650,
+      "dataset": "Kvasir-SEG",
+      "file": "cju3ya7goj6at0818v2l5ay7f.png",
+      "sha256": "a2e2b907dcc4c30a629114970944b38c719f5bf8fe463da5a16dd1e645347fe0",
+      "width": 626,
+      "height": 547
+    },
+    {
+      "id": 651,
+      "dataset": "Kvasir-SEG",
+      "file": "cju3ykamdj9u208503pygyuc8.png",
+      "sha256": "4e66466f1bdc02dd14a96db87db2a56bdfdf8d610d90047a52c3c46e476c2e5e",
+      "width": 1220,
+      "height": 1010
+    },
+    {
+      "id": 652,
+      "dataset": "Kvasir-SEG",
+      "file": "cju40m0rjkpw80871z6n6yg1u.png",
+      "sha256": "465b595ad4bb22c2d3bf426103b3536ff8997ca1d6e10de34317b427dd65690f",
+      "width": 586,
+      "height": 528
+    },
+    {
+      "id": 653,
+      "dataset": "Kvasir-SEG",
+      "file": "cju42qet0lsq90871e50xbnuv.png",
+      "sha256": "1b5940f4971184e307ff8155fa7b74c3ba2ffcd0bb8e60bf030b10930108cdc9",
+      "width": 598,
+      "height": 531
+    },
+    {
+      "id": 654,
+      "dataset": "Kvasir-SEG",
+      "file": "cju42wamblrqn098798r2yyok.png",
+      "sha256": "347474f1c6af65e7ee8f0d57be39b8446cbaeeb0eb02ae6cea55bd31539370e4",
+      "width": 621,
+      "height": 547
+    },
+    {
+      "id": 655,
+      "dataset": "Kvasir-SEG",
+      "file": "cju43jcqim2cp08172dvjvyui.png",
+      "sha256": "7abe2d0fe90a653aa110dcf0af6e8803f337910ef23cb1c1df8b311b2ba37813",
+      "width": 626,
+      "height": 547
+    },
+    {
+      "id": 656,
+      "dataset": "Kvasir-SEG",
+      "file": "cju45rj7ln8980850a7821fov.png",
+      "sha256": "0b1d74c7b1074c4561fa7a4f8785c79666cefc6f5fef434d375587aaeabc51c3",
+      "width": 585,
+      "height": 546
+    },
+    {
+      "id": 657,
+      "dataset": "Kvasir-SEG",
+      "file": "cju45ty6zn9oz0850qy4qnck1.png",
+      "sha256": "7c36c8ff5a7ad1b0cedac269c175931be440b3d1e7115c7a5295d83dcb5a6c02",
+      "width": 551,
+      "height": 531
+    },
+    {
+      "id": 658,
+      "dataset": "Kvasir-SEG",
+      "file": "cju45v0pungu40871acnwtmu5.png",
+      "sha256": "838601e711e1ce714e2e228c10f5d9ec93894def083a014c2759b71eb9dfe75c",
+      "width": 606,
+      "height": 530
+    },
+    {
+      "id": 659,
+      "dataset": "Kvasir-SEG",
+      "file": "cju5cky5xb0ay0801oxet697t.png",
+      "sha256": "276d4ab1ed8dcf3940a3e6851641e7ad08dbef38bc64bfe9b9121bebe11b6ef2",
+      "width": 622,
+      "height": 528
+    },
+    {
+      "id": 660,
+      "dataset": "Kvasir-SEG",
+      "file": "cju5clr68b48r0755cmuvponm.png",
+      "sha256": "0c8ff33ee0ff81b0d3329ec356d6589c6827f8b79046a80a8bd601b06a459147",
+      "width": 601,
+      "height": 526
+    },
+    {
+      "id": 661,
+      "dataset": "Kvasir-SEG",
+      "file": "cju5hi52odyf90817prvcwg45.png",
+      "sha256": "b2c0ed8588863d4c454eb83034f8024803df00a5280c6c22e2b6ee80be37a79d",
+      "width": 568,
+      "height": 352
+    },
+    {
+      "id": 662,
+      "dataset": "Kvasir-SEG",
+      "file": "cju5hyi9yegob0755ho3do8en.png",
+      "sha256": "191038552d689a162880fd8295981e1f62018896dd1190d4180afbc6299ef319",
+      "width": 623,
+      "height": 529
+    },
+    {
+      "id": 663,
+      "dataset": "Kvasir-SEG",
+      "file": "cju5k3j3uf6de0817hszzfr7n.png",
+      "sha256": "0fb99ddc629bd7a65e7a91e6a1b5b310c695758b90682fa8441ae37f7ef4c371",
+      "width": 547,
+      "height": 530
+    },
+    {
+      "id": 664,
+      "dataset": "Kvasir-SEG",
+      "file": "cju5o4pk9h0720755lgp9jq8m.png",
+      "sha256": "1a41e7beaf3e5997cfbb60286d4733c6fc03a119c92978fe47c9f2517eff431d",
+      "width": 622,
+      "height": 530
+    },
+    {
+      "id": 665,
+      "dataset": "Kvasir-SEG",
+      "file": "cju5wrrs0m2af0818vmnajbtw.png",
+      "sha256": "682078dde0151219841143ceac81ecd12e9605a6b5e9611e2e0bd42560fe5948",
+      "width": 626,
+      "height": 547
+    },
+    {
+      "id": 666,
+      "dataset": "Kvasir-SEG",
+      "file": "cju5x00l6m5j608503k78ptee.png",
+      "sha256": "ad24fe26b8f42b552b18791a0143757dc98caa222e598554c89089f11feb51cd",
+      "width": 554,
+      "height": 529
+    },
+    {
+      "id": 667,
+      "dataset": "Kvasir-SEG",
+      "file": "cju5xjn5mm78b09871spyqhhr.png",
+      "sha256": "73a1516118e20a732d600ebae89eb941f17d206514af6309a62fb863f11069ea",
+      "width": 622,
+      "height": 528
+    },
+    {
+      "id": 668,
+      "dataset": "Kvasir-SEG",
+      "file": "cju5xkwzxmf0z0818gk4xabdm.png",
+      "sha256": "cd7a6e2473f5c4e82a8f4fab19593e7e2191b29bb737ec95f371b78f9452c1c8",
+      "width": 609,
+      "height": 505
+    },
+    {
+      "id": 669,
+      "dataset": "Kvasir-SEG",
+      "file": "cju5xq3tdm9fn0987pbedxdg5.png",
+      "sha256": "9c26da32f588b333abb8b022a50554a9c749d7ee9cfe83bb3fbdc66f69d1a33e",
+      "width": 570,
+      "height": 529
+    },
+    {
+      "id": 670,
+      "dataset": "Kvasir-SEG",
+      "file": "cju5y4hgqmk0i08180rjhbwvp.png",
+      "sha256": "4ff174f2bae171221c80564a2ff6699f74895026f1a998942a26658c60e9f6ea",
+      "width": 626,
+      "height": 547
+    },
+    {
+      "id": 671,
+      "dataset": "Kvasir-SEG",
+      "file": "cju5yeqiwmkgl0801fzv2douc.png",
+      "sha256": "90fea97a95600c57c21d4794b6ee17d70593cf3659699315debf7c4464256099",
+      "width": 570,
+      "height": 531
+    },
+    {
+      "id": 672,
+      "dataset": "Kvasir-SEG",
+      "file": "cju6us80mv1b50871ebyq2wxa.png",
+      "sha256": "1149098f0375a6aecab474b3aa7c92c2bbf4b5fa4d4188fdc9060f653ec12514",
+      "width": 562,
+      "height": 530
+    },
+    {
+      "id": 673,
+      "dataset": "Kvasir-SEG",
+      "file": "cju6uy20suzbl0987rzuhz7z9.png",
+      "sha256": "c0804f26e43eaaffa564926df4f663ce308bb6ccf62b9c9229f612ad26609deb",
+      "width": 626,
+      "height": 546
+    },
+    {
+      "id": 674,
+      "dataset": "Kvasir-SEG",
+      "file": "cju6v1m1xv07w09870ah3njy1.png",
+      "sha256": "d51e001d59ea2eb2703e90d2b3d972be7a10b52414c989984e606fc68797ef85",
+      "width": 565,
+      "height": 530
+    },
+    {
+      "id": 675,
+      "dataset": "Kvasir-SEG",
+      "file": "cju6vifjlv55z0987un6y4zdo.png",
+      "sha256": "364aa97b640a77dc86d836b2be8cf9550663679694cdbe607d30c05c46d9e4b4",
+      "width": 622,
+      "height": 529
+    },
+    {
+      "id": 676,
+      "dataset": "Kvasir-SEG",
+      "file": "cju6vrs1ov8cr098788h8gs6j.png",
+      "sha256": "42f9ee4ad8d2014841d1e900c40d4b95112d891d55666e58c0f6b425fd07f85e",
+      "width": 621,
+      "height": 529
+    },
+    {
+      "id": 677,
+      "dataset": "Kvasir-SEG",
+      "file": "cju6x0yqbvxqt0755dhxislgb.png",
+      "sha256": "243fa482e5e6f9593f78d61459493512576f8601b6f05c0aef7ebc8eaca2617a",
+      "width": 622,
+      "height": 530
+    },
+    {
+      "id": 678,
+      "dataset": "Kvasir-SEG",
+      "file": "cju7ajnbo1gvm098749rdouk0.png",
+      "sha256": "041f0ce15b9d2e964cba49a37fba3f3fc9c8167c19650627ea122c729fe3dceb",
+      "width": 626,
+      "height": 546
+    },
+    {
+      "id": 679,
+      "dataset": "Kvasir-SEG",
+      "file": "cju7awzmu1ncs0871hziy65zx.png",
+      "sha256": "27ef4b95666ee2d9f544f361b5d20d2c288a337fcea9da811c84ebb118ab889e",
+      "width": 592,
+      "height": 527
+    },
+    {
+      "id": 680,
+      "dataset": "Kvasir-SEG",
+      "file": "cju7bd1qu1mx409877xjxibox.png",
+      "sha256": "685649a35987141d93382656a6214a1b8493b60cdb1cb93dc61d6a0024a9c813",
+      "width": 570,
+      "height": 530
+    },
+    {
+      "id": 681,
+      "dataset": "Kvasir-SEG",
+      "file": "cju7bgnvb1sf808717qa799ir.png",
+      "sha256": "0ba8016d1cd88885a50b72065a75638e38ff2c6a951899777dc52fd362b299ec",
+      "width": 590,
+      "height": 528
+    },
+    {
+      "id": 682,
+      "dataset": "Kvasir-SEG",
+      "file": "cju7crgxa28550755wbsgqkel.png",
+      "sha256": "d59ff2279a1b2c9a60c8d36bd998edfb4019628491ceb4231a80a3ecd9950820",
+      "width": 622,
+      "height": 504
+    },
+    {
+      "id": 683,
+      "dataset": "Kvasir-SEG",
+      "file": "cju7da88w2eod0755wejzynvt.png",
+      "sha256": "119d85d657009e69d57593e51af1fdada2d965d108726623014c0d36b2d36dbd",
+      "width": 622,
+      "height": 484
+    },
+    {
+      "id": 684,
+      "dataset": "Kvasir-SEG",
+      "file": "cju7ddtz729960801uazp1knc.png",
+      "sha256": "1f757dd04fe9f73e8f436765d7dd0437f2f9e466c67ffaf4d299665c5dca083c",
+      "width": 622,
+      "height": 528
+    },
+    {
+      "id": 685,
+      "dataset": "Kvasir-SEG",
+      "file": "cju7do8c72dbo0801vxfzxdc4.png",
+      "sha256": "0d2d4868b7efc3e82beb2b0a375c615599c291fc3152cb14c698a3d3f1043625",
+      "width": 626,
+      "height": 547
+    },
+    {
+      "id": 686,
+      "dataset": "Kvasir-SEG",
+      "file": "cju7dymur2od30755eg8yv2ht.png",
+      "sha256": "827bdcf099d815488561f447ef07e663fd7da40ba63ec1dde57d2af912483ed0",
+      "width": 622,
+      "height": 530
+    },
+    {
+      "id": 687,
+      "dataset": "Kvasir-SEG",
+      "file": "cju7ecl9i2i060987xawjp4l0.png",
+      "sha256": "a3d43708ffbb9c072933c2e11b8c3144e3b3312b98e2c5badbc72d43e7375c5a",
+      "width": 622,
+      "height": 529
+    },
+    {
+      "id": 688,
+      "dataset": "Kvasir-SEG",
+      "file": "cju7fbndk2sl608015ravktum.png",
+      "sha256": "c2e9f95a57bb5b28096ceb5ba87cc5f9afb1687b6c1568afd542a9c5792a59a3",
+      "width": 569,
+      "height": 530
+    },
+    {
+      "id": 689,
+      "dataset": "Kvasir-SEG",
+      "file": "cju7fcgbe2z3p07550vaflqdb.png",
+      "sha256": "b6e79946af8b9fa45861dea3b2e9095a694b9ab9272f3ef6bd62af717701b16a",
+      "width": 620,
+      "height": 530
+    },
+    {
+      "id": 690,
+      "dataset": "Kvasir-SEG",
+      "file": "cju7fpfzq2wyf0818xxd1oziv.png",
+      "sha256": "f64c9320e96b6c77538f7bcd0f29ea4365785eb900046753569a6516ba88dad3",
+      "width": 570,
+      "height": 530
+    },
+    {
+      "id": 691,
+      "dataset": "Kvasir-SEG",
+      "file": "cju84hibuktj80871u519o71q.png",
+      "sha256": "09f038752244dad1567f273a642a16269c8114472021879c487c4ce91123106c",
+      "width": 622,
+      "height": 529
+    },
+    {
+      "id": 692,
+      "dataset": "Kvasir-SEG",
+      "file": "cju88cddensj00987788yotmg.png",
+      "sha256": "d95dad3be1a0b7cdf6510a9d887ca3b7b587a7efeca12a4f2b76b20c401ed7cf",
+      "width": 622,
+      "height": 531
+    },
+    {
+      "id": 693,
+      "dataset": "Kvasir-SEG",
+      "file": "cju88t4fvokxf07558ymyh281.png",
+      "sha256": "e641d7acfa67c6b89de5bae2a7d3e7aa82afec041fd1ad6d77bdfbda74533292",
+      "width": 570,
+      "height": 530
+    },
+    {
+      "id": 694,
+      "dataset": "Kvasir-SEG",
+      "file": "cju88vx2uoocy075531lc63n3.png",
+      "sha256": "e28dcbec45e1b177b67a9fdaeff41b3b60b31aa5fdeb6e105bc3f38d44644b10",
+      "width": 596,
+      "height": 508
+    },
+    {
+      "id": 695,
+      "dataset": "Kvasir-SEG",
+      "file": "cju8alhigqn2h0801zksudldd.png",
+      "sha256": "afffa1c0957315d81d7bba3019bc2e5198853415593fb956bb406b0645f80d79",
+      "width": 614,
+      "height": 528
+    },
+    {
+      "id": 696,
+      "dataset": "Kvasir-SEG",
+      "file": "cju8aqq8uqmoq0987hphto9gg.png",
+      "sha256": "93c4db9d9ce79cfd2552c5f820cb2c3ed3d84aa9135ac0c3ca7913ef7085c10b",
+      "width": 626,
+      "height": 546
+    },
+    {
+      "id": 697,
+      "dataset": "Kvasir-SEG",
+      "file": "cju8bk8oirjhw0817hgkua2w8.png",
+      "sha256": "a9ae48412478c4e8dd2a049a3783f616fcb0ee3a0c72bf2ff2442fd3bcd5d3b8",
+      "width": 575,
+      "height": 509
+    },
+    {
+      "id": 698,
+      "dataset": "Kvasir-SEG",
+      "file": "cju8c2rqzs5t80850d0zky5dy.png",
+      "sha256": "e3b7090071af85a7f4954a965dc37cc2d878ea1b13c7e91ab9d0c68e46f24f78",
+      "width": 615,
+      "height": 490
+    },
+    {
+      "id": 699,
+      "dataset": "Kvasir-SEG",
+      "file": "cju8d4jgatgpj0871q2ophhkm.png",
+      "sha256": "31227085f049870b63e365181a87a425368f58495f713df8fd1221a2dd76fb52",
+      "width": 622,
+      "height": 531
+    },
+    {
+      "id": 700,
+      "dataset": "Kvasir-SEG",
+      "file": "cju8dqkrqu83i0818ev74qpxq.png",
+      "sha256": "dbce92606af5c693613b6626c54818655dda1d2a8a8c02a78290f4d4bf01cbf7",
+      "width": 1348,
+      "height": 1070
+    }
+  ],
+  "excluded": [
+    {
+      "path": "test/CVC-ColonDB/images/139.png",
+      "sha256": "4b8f27bd7c371fe62acc6566fab3524d6fd64fa21e1c5adf075ad120f978f572",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/198.png",
+      "sha256": "e6fa1382788bc2e02bfd67b2f27f3995008e6ee0b57a8fe4d804c3d948c78c03",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/203.png",
+      "sha256": "62dc2fd19321de6a7663bde478a29587ba4d7f4c4c15baa40468ae6cd9871610",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/245.png",
+      "sha256": "7630c92d70f158fa0018175279b86d31a84431e9f6d88ad8f4d541c0a5c90272",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/246.png",
+      "sha256": "947df8535db58b62fd0d258f0b9091ab4d7f8ca278ea3a0734ed7c9a3249ea27",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/247.png",
+      "sha256": "246b00cd2fa65d310c20269fff2d808f73dd8d0d397d8355dc1ba17f99e46263",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/248.png",
+      "sha256": "7630c92d70f158fa0018175279b86d31a84431e9f6d88ad8f4d541c0a5c90272",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/249.png",
+      "sha256": "947df8535db58b62fd0d258f0b9091ab4d7f8ca278ea3a0734ed7c9a3249ea27",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/250.png",
+      "sha256": "246b00cd2fa65d310c20269fff2d808f73dd8d0d397d8355dc1ba17f99e46263",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/251.png",
+      "sha256": "7630c92d70f158fa0018175279b86d31a84431e9f6d88ad8f4d541c0a5c90272",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/252.png",
+      "sha256": "947df8535db58b62fd0d258f0b9091ab4d7f8ca278ea3a0734ed7c9a3249ea27",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/253.png",
+      "sha256": "246b00cd2fa65d310c20269fff2d808f73dd8d0d397d8355dc1ba17f99e46263",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/254.png",
+      "sha256": "7630c92d70f158fa0018175279b86d31a84431e9f6d88ad8f4d541c0a5c90272",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/255.png",
+      "sha256": "947df8535db58b62fd0d258f0b9091ab4d7f8ca278ea3a0734ed7c9a3249ea27",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/256.png",
+      "sha256": "246b00cd2fa65d310c20269fff2d808f73dd8d0d397d8355dc1ba17f99e46263",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/257.png",
+      "sha256": "7630c92d70f158fa0018175279b86d31a84431e9f6d88ad8f4d541c0a5c90272",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/258.png",
+      "sha256": "947df8535db58b62fd0d258f0b9091ab4d7f8ca278ea3a0734ed7c9a3249ea27",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/259.png",
+      "sha256": "246b00cd2fa65d310c20269fff2d808f73dd8d0d397d8355dc1ba17f99e46263",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/260.png",
+      "sha256": "7630c92d70f158fa0018175279b86d31a84431e9f6d88ad8f4d541c0a5c90272",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/261.png",
+      "sha256": "947df8535db58b62fd0d258f0b9091ab4d7f8ca278ea3a0734ed7c9a3249ea27",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/262.png",
+      "sha256": "246b00cd2fa65d310c20269fff2d808f73dd8d0d397d8355dc1ba17f99e46263",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/263.png",
+      "sha256": "7630c92d70f158fa0018175279b86d31a84431e9f6d88ad8f4d541c0a5c90272",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/271.png",
+      "sha256": "ddba7989e497727d5850c36b4ce84664c4100c3339b00e351256009428531553",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/272.png",
+      "sha256": "e9c2bc43456876aa37e17e89a7a70a1ed268586798f700b55ca5eb509402ea90",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/289.png",
+      "sha256": "7ff9aa866dc451e07db7d4764eb68b80d7fd8b114d56b774a35927d31aef2363",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/294.png",
+      "sha256": "e0190d30c6314d1b1dc07b2b5e9baf1dd9fd866a05c5f7497f26ebfe1bc24471",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/295.png",
+      "sha256": "eb6b421eaa718fb635962612ed2ee0981acfb2ffa3c296c37ccb25e9d3d3dc01",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/296.png",
+      "sha256": "7ff9aa866dc451e07db7d4764eb68b80d7fd8b114d56b774a35927d31aef2363",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/297.png",
+      "sha256": "ff779c24fcce4b237706d7de4832a00008cd89b527bdba915d1c01b40487a1ac",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/298.png",
+      "sha256": "07de4c94a071d1ccb4f2115dafcdc778b8bf66716c66e71249624df8c1e2fd77",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/299.png",
+      "sha256": "0f81843f9fa89f39c9dd099ec174c392c43036b5169f9a571b204d3fcc3b7e1f",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/300.png",
+      "sha256": "82c25d6cf1b65dafc2de1d9d2013b02bce778154e169939d7cd5e31f903a2aad",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/98.png",
+      "sha256": "d56eea056d20f680794cd733eeec6de2918490c2c6bcfb6ac02254b248067f5b",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/CVC-ColonDB/images/99.png",
+      "sha256": "4df0aa1b9fc7f147300150537dca9717c974f2e58c4196c9f74b78481587b3fc",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/ETIS-LaribPolypDB/images/131.png",
+      "sha256": "3a8f3edf0a349f8ab4c7ac7d1001abb4bc5a92e171fb28f831adceb1121ede8d",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/ETIS-LaribPolypDB/images/175.png",
+      "sha256": "547c8b7e3ce3d26f6db8c86a0e90ee5f99ff8daed129444a72bcb6cf6f32a92c",
+      "reason": "test duplicate"
+    },
+    {
+      "path": "test/ETIS-LaribPolypDB/images/22.png",
+      "sha256": "e538fbdb795151477b5ea7f74c5e68f6237ce24fa4b611ea723516a452260dc1",
+      "reason": "test duplicate"
+    }
+  ],
+  "device": "mps"
+}

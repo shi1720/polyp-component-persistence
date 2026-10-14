@@ -1,0 +1,9 @@
+{
+  "unit_tests": "4 passed; exhaustive 729 three-level 2x3 images under two connectivities; 100 finite-population leave-one-out checks at three targets",
+  "path_invariants": "passed on every released primary, sensitivity, secondary and pilot path file",
+  "primary_reanalysis": "summary.csv and splits.csv byte-identical",
+  "pdf": "13 pages, compiled successfully, no overfull boxes; rendered visual QA completed",
+  "conference_body_words": 226,
+  "conference_title_words": 9,
+  "images": "all three JPG attachments <=790 pixels in either dimension and <500 KB"
+}

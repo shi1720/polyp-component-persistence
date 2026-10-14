@@ -1,0 +1,13 @@
+{
+  "N": 701,
+  "nonnested": 469,
+  "risk_increase": 449,
+  "fixed_threshold": 0.0002609952721007336,
+  "fixed_threshold_cleanup_penalty": 0.03922805269035795,
+  "image_bootstrap_95": [
+    0.027438473735132377,
+    0.05216340816491509
+  ],
+  "fixed_threshold_cleanup_gt1pct": 56,
+  "fixed_threshold_cleanup_max": 1.0
+}

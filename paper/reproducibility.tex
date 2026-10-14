@@ -1,0 +1,16 @@
+The reference environment uses Python 3.12, PyTorch 2.14.1, NumPy 2.5.4, SciPy 1.18.1, Pillow 12.3.0, and timm 1.0.30 on macOS/Apple Silicon. A complete dependency lock file is released. CPU computations use two PyTorch threads; path generation uses two workers. Model inference runs once per retained image. Subsequent splits reuse the same fixed paths and do not refit a model or postprocessor.
+
+The maximum absolute CPU--MPS sigmoid differences over the first three images were 2.4e-05 for PraNet and 2.84e-05 for Polyp-PVT. Reported inference times, including reference checks but excluding data download and duplicate hashing, were 220.8 and 161.6 seconds, respectively. These are reference-run timings, not deployment latency benchmarks.
+
+\begin{table}[htbp]\centering\small
+\caption{Reference artifact identifiers. Complete hashes and download URLs are in the machine-readable asset manifest.}
+\begin{tabular}{ll}\toprule
+Asset & SHA-256 prefix / Git revision prefix\\\midrule
+Processed data archive & \texttt{554b9f23ba697083}\\
+PraNet checkpoint & \texttt{1e178247113e4b87}\\
+Polyp-PVT checkpoint & \texttt{aef5ac34f7795b85}\\
+Data/architecture source revision & \texttt{b9b2276e3e1ccf26}\\
+Polyp-PVT source revision & \texttt{cd71fbf9fcd8c32c}\\\bottomrule
+\end{tabular}\end{table}
+
+The artifact separates original code from third-party assets. The download script verifies data and checkpoint hashes, obtains pinned architecture files, and documents the initialization-only patch for Polyp-PVT. A released image manifest fixes ordering and duplicate retention. For each image, method, and grid point, the path files store missed fraction, frame-area fraction, and Dice. These sufficient statistics reproduce every split-level comparison without re-running a neural network. Figure regeneration additionally requires the upstream images and the inference cache. The uniform-probability-grid pilot remains available, including its full-frame outcome, to document the exploratory amendment.

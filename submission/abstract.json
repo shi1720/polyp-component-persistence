@@ -1,0 +1,15 @@
+{
+  "title": "Preserving Recall Calibration through Connected-Component Filtering in Polyp Segmentation",
+  "author": "Shivam Gupta",
+  "affiliation": "Independent Researcher, India",
+  "presentation": "Oral Presentation",
+  "topic": "Artificial Intelligence / Others",
+  "body": {
+    "objectives": "Polyp segmentation masks may undergo largest-connected-component (LCC) cleanup after recall calibration. We investigated whether this operation preserves the calibrated fraction of missed annotated polyp area and compared corrections that respect the final mask geometry.",
+    "methods": "We evaluated published PraNet and Polyp-PVT checkpoints on four public datasets. Exact decoded-image checks removed 37 repeated test images, retaining 701 images. Seven procedures were compared over 500 shared random splits, each containing 350 calibration and 351 evaluation images, at a 10% expected missed-area target. Comparators included raw calibration, subsequent LCC cleanup, final-mask recalibration, a nested running union of LCC masks, an established monotone loss envelope, fixed-marker reconstruction, and area opening.",
+    "results": "LCC cleanup increased mean missed annotated area from 9.36% to 48.64% for PraNet and from 9.75% to 13.53% for Polyp-PVT. Running-union calibration attained 8.99% and 9.78% missed area, respectively. Fixed-marker reconstruction attained 9.01% and 9.82%, using 28.01% and 11.51% of frame area. Loss-envelope calibration retained single-component outputs but occupied 92.54% and 98.48% of frames. LCC paths were nonnested in 554/701 PraNet images and 469/701 Polyp-PVT images. Four-connectivity and denser-grid PraNet analyses retained the cleanup effect.",
+    "conclusions": "Largest-component cleanup can remove polyp pixels that supported a recall guarantee. Calibration must address the final returned mask. Increasing connected filters offered practical alternatives; retaining a single largest component could require nearly full-frame masks. These retrospective image-level results support pipeline validation, without establishing clinical detection benefit."
+  },
+  "body_word_count": 226,
+  "title_word_count": 9
+}

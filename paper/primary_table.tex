@@ -1,0 +1,13 @@
+\begin{table}[htbp]\centering\small
+\caption{PraNet primary evaluation at target 10\% missed annotated area. Values average 500 shared splits, with 350 calibration and 351 evaluation images. The range is the 2.5th--97.5th percentile of split risks, not a population confidence interval. All numerical columns except Dice are percentages.}
+\label{tab:primary}
+\begin{tabular}{lrrrr}\toprule
+Procedure & Missed area & Split range & Frame area & Dice\\\midrule
+Raw CRC & 9.36 & 6.39--13.51 & 33.17 & 0.345 \\
+Raw CRC + LCC & 48.64 & 29.39--62.81 & 23.89 & 0.321 \\
+LCC recalibration & 9.16 & 5.56--14.13 & 92.54 & 0.135 \\
+Prefix union CRC & 8.99 & 5.42--12.69 & 39.43 & 0.300 \\
+LCC envelope CRC & 9.16 & 5.56--14.13 & 92.54 & 0.135 \\
+Anchor CRC & 9.01 & 5.10--12.47 & 28.01 & 0.579 \\
+Area opening CRC & 9.35 & 6.41--13.57 & 33.35 & 0.343 \\
+\bottomrule\end{tabular}\end{table}

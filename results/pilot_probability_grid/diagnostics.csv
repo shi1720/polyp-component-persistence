@@ -1,0 +1,5 @@
+dataset,n,nonnested,risk_increase
+CVC-ClinicDB,62,2,2
+CVC-ColonDB,346,4,3
+ETIS-LaribPolypDB,193,10,6
+Kvasir-SEG,100,4,1

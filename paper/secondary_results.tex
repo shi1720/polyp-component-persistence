@@ -1,0 +1,21 @@
+\subsection{Transformer replication and sensitivity analyses}
+On Polyp-PVT, the same intervention changed mean missed area from 9.75\% to 13.53\%. Persistence, envelope, and anchor calibration attained 9.78\%, 8.97\%, and 9.82\%, respectively. The transformer had 469/701 nonnested LCC paths and 449/701 paths with an annotated-loss increase. The model comparison changes the magnitude of the effect; neither model is selected on these results.
+
+\begin{table}[htbp]\centering\small
+\caption{Polyp-PVT replication at the 10\% target, with the same images and 500 paired splits. All numerical columns except Dice are percentages; split ranges are partition sensitivity.}
+\label{tab:pvt}\begin{tabular}{lrrrr}\toprule
+Procedure & Missed area & Split range & Frame area & Dice\\\midrule
+Raw CRC & 9.75 & 7.31--12.67 & 8.91 & 0.822 \\
+Raw CRC + LCC & 13.53 & 10.89--16.33 & 8.59 & 0.818 \\
+LCC recalibration & 10.11 & 7.44--13.55 & 18.33 & 0.729 \\
+Prefix union CRC & 9.78 & 6.76--12.90 & 10.06 & 0.807 \\
+LCC envelope CRC & 8.97 & 4.97--12.44 & 98.48 & 0.131 \\
+Anchor CRC & 9.82 & 6.89--13.55 & 11.51 & 0.785 \\
+Area opening CRC & 9.75 & 7.27--12.69 & 8.90 & 0.822 \\
+\bottomrule\end{tabular}\end{table}
+
+At the primary target, naive LCC recalibration and envelope calibration selected the same grid index in 500/500 PraNet splits. At the primary target, naive LCC recalibration and envelope calibration selected the same grid index in 32/500 Polyp-PVT splits. Naive recalibration had mean Polyp-PVT risk 10.11\%, slightly above the 10\% target; the split variability and finite Monte Carlo experiment do not establish a systematic target violation. Consequently, the experiment demonstrates failure of transferring raw-mask calibration through cleanup, but does not establish that naive final-mask recalibration fails empirically at this target.
+
+For PraNet with four-connectivity, raw/cleaned mean missed areas were 9.36\%/48.64\%; persistence/envelope/anchor risks were 8.99\%/9.18\%/9.01\%. For PraNet with 513-point grid, raw/cleaned mean missed areas were 9.64\%/45.93\%; persistence/envelope/anchor risks were 9.49\%/9.50\%/9.47\%. The target sensitivity results and source-held-out stress results are included in Appendix~\ref{app:additional}.
+
+The classical anchor control used less mean frame area than persistence in the primary PraNet comparison (28.01\% versus 39.43\%) and attained a higher mean Dice (0.579 versus 0.300). Thus the running-union construction is useful for preserving a display-history constraint, but the data do not support preferring it over established increasing filters solely for segmentation utility.

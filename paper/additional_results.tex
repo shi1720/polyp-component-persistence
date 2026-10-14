@@ -1,0 +1,36 @@
+\section{Additional benchmark results}\label{app:additional}
+\begin{table}[htbp]\centering\small
+\caption{Mean missed annotated area (\%) across shared splits at three targets. P denotes PraNet and V denotes Polyp-PVT. No entry is a per-patient result.}
+\begin{tabular}{lrrrrrr}\toprule
+ & P: 5\% & P: 10\% & P: 20\% & V: 5\% & V: 10\% & V: 20\%\\\midrule
+Raw CRC & 4.29 & 9.36 & 19.79 & 4.70 & 9.75 & 19.75 \\
+Raw CRC + LCC & 63.56 & 48.64 & 22.00 & 9.72 & 13.53 & 21.52 \\
+LCC recalibration & 4.47 & 9.16 & 21.10 & 4.12 & 10.11 & 19.81 \\
+Prefix union CRC & 4.33 & 8.99 & 19.82 & 4.70 & 9.78 & 19.79 \\
+LCC envelope CRC & 4.47 & 9.16 & 19.25 & 4.12 & 8.97 & 18.63 \\
+Anchor CRC & 4.44 & 9.01 & 19.82 & 4.71 & 9.82 & 19.89 \\
+Area opening CRC & 4.29 & 9.35 & 19.79 & 4.70 & 9.75 & 19.75 \\
+\bottomrule\end{tabular}\end{table}
+\begin{table}[htbp]\centering\small\caption{PraNet source-held-out stress: missed annotated area (\%) when calibrating at 10\% on the other sources. Source shift is outside the exchangeability guarantee.}
+\begin{tabular}{lrrrr}\toprule
+Procedure & ClinicDB & ColonDB & ETIS & Kvasir\\\midrule
+Raw CRC & 0.75 & 15.79 & 12.38 & 1.54 \\
+Raw CRC + LCC & 68.05 & 23.19 & 54.12 & 57.90 \\
+LCC recalibration & 12.63 & 15.13 & 3.37 & 8.15 \\
+Prefix union CRC & 2.18 & 12.72 & 13.90 & 2.38 \\
+LCC envelope CRC & 12.63 & 15.13 & 3.37 & 8.15 \\
+Anchor CRC & 4.69 & 11.17 & 11.99 & 5.91 \\
+Area opening CRC & 0.75 & 15.81 & 12.46 & 1.54 \\
+\bottomrule\end{tabular}\end{table}
+\begin{table}[htbp]\centering\small\caption{Polyp-PVT source-held-out stress: missed annotated area (\%) when calibrating at 10\% on the other sources. Source shift is outside the exchangeability guarantee.}
+\begin{tabular}{lrrrr}\toprule
+Procedure & ClinicDB & ColonDB & ETIS & Kvasir\\\midrule
+Raw CRC & 2.58 & 17.17 & 7.68 & 5.17 \\
+Raw CRC + LCC & 4.72 & 18.35 & 15.43 & 8.22 \\
+LCC recalibration & 5.10 & 8.26 & 13.21 & 8.28 \\
+Prefix union CRC & 4.08 & 12.99 & 11.25 & 6.99 \\
+LCC envelope CRC & 9.80 & 12.60 & 9.39 & 2.12 \\
+Anchor CRC & 7.22 & 11.79 & 10.16 & 8.47 \\
+Area opening CRC & 2.58 & 17.13 & 7.68 & 5.18 \\
+\bottomrule\end{tabular}\end{table}
+Source-dependent risks can exceed the nominal target even for mathematically valid procedures when calibration and evaluation distributions differ. These stress results do not extend the finite-pool guarantee to clinical populations.

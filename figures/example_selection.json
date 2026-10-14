@@ -1,0 +1,26 @@
+{
+  "threshold": 5.699361511799274e-05,
+  "image_ids": [
+    580,
+    51
+  ],
+  "files": [
+    {
+      "id": 580,
+      "dataset": "ETIS-LaribPolypDB",
+      "file": "80.png",
+      "sha256": "8c72539c8159c8d2de04d65ba210e1b57b573b8931364d29a06340fcecfb3353",
+      "width": 1225,
+      "height": 966
+    },
+    {
+      "id": 51,
+      "dataset": "CVC-ClinicDB",
+      "file": "559.png",
+      "sha256": "d0c75005336d1c2bbcc1220a46c9fd5b8a89e555c49829b4967f60f4dfd32d02",
+      "width": 384,
+      "height": 288
+    }
+  ],
+  "selection": "largest full-pool cleanup penalty per source, top two distinct sources excluding Kvasir to avoid acquisition text in display"
+}

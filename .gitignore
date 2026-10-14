@@ -1,0 +1,12 @@
+work/
+.venv/
+__pycache__/
+.DS_Store
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+submission/*receipt*
+submission/*account*

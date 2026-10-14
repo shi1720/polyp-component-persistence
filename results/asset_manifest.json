@@ -1,0 +1,20 @@
+{
+  "data_archive": {
+    "url": "https://github.com/chrisyeh96/conformal-risk-training/releases/download/v1.0.0/polyps_data.zip",
+    "sha256": "554b9f23ba697083334bc166ebc98273512bc1669ebfe4025153121b7cba0b59"
+  },
+  "pranet_checkpoint": {
+    "url": "https://github.com/chrisyeh96/conformal-risk-training/releases/download/v1.0.0/PraNet-19.pth",
+    "sha256": "1e178247113e4b870d2ce1de6b36ef5dcb042a283703d455487d870635c8edf2"
+  },
+  "pvt_checkpoint": {
+    "url": "https://drive.google.com/uc?id=1l60Nzd2EQNZWbMHkvItDUUUp6KTlD0vt",
+    "sha256": "aef5ac34f7795b85af0ecbb730502db251d416a73a4c6b04a74e30aa45554048"
+  },
+  "architecture_revisions": {
+    "conformal-risk-training": "b9b2276e3e1ccf26ab74f2c750e51e091aa409bd",
+    "Polyp-PVT": "cd71fbf9fcd8c32cc0f33699f4e0186073c64dc4"
+  },
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.14"
+}

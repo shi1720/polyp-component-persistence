@@ -1,0 +1,167 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo,microtype,amsmath,amssymb,amsthm,graphicx,booktabs,array,xcolor,enumitem}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue]{hyperref}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+\makeatletter
+\setlength{\@fptop}{0pt}
+\setlength{\@fpsep}{18pt}
+\setlength{\@fpbot}{0pt plus 1fil}
+\makeatother
+\setlength{\parindent}{1em}
+\setlength{\parskip}{2pt}
+\setlength{\emergencystretch}{3em}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newcommand{\LCC}{\operatorname{LCC}}
+\newcommand{\E}{\mathbb{E}}
+\title{Preserving Recall Calibration through Connected-Component Filtering in Polyp Segmentation}
+\author{Shivam Gupta\\\small Independent Researcher, India\\\small\href{mailto:shivam1720406@gmail.com}{shivam1720406@gmail.com}}
+\date{14 October 2026}
+\begin{document}
+\maketitle
+\input{abstract.tex}
+\noindent\textbf{Keywords:} colonoscopy; polyp segmentation; conformal risk control; connected components; software validation.
+
+\section{Introduction}
+A calibrated segmentation pipeline makes a statement about its final output. In practice, the mask displayed to an endoscopist can differ from the threshold mask used during calibration. A common simplification retains only the largest connected component (LCC), an operation previously evaluated for polyp detection and segmentation~\cite{cleanup}. This removes isolated false predictions but can also delete annotated polyp pixels. We ask whether recall calibration survives this apparently routine change, how often the failure mechanism occurs in public benchmark predictions, and which corrections are useful when cleanup is retained.
+
+The distinction has operational relevance. Endoscopy AI is an established product category: the FDA classified GI Genius as a gastrointestinal lesion detection system in 2021~\cite{fda}. We do not evaluate that device or assert that it uses LCC filtering. Instead, we study a reproducible component of a segmentation pipeline that could be tested during product validation. Our endpoint is the fraction of annotated polyp area omitted from a binary image mask. It is neither adenoma detection rate nor evidence of complete resection.
+
+Two problems must be separated. First, deleting pixels \emph{after} calibrating a raw mask increases its missed-area loss even when the cleanup rule is fixed. Second, recalibrating an LCC-filtered family with the ordinary monotone conformal risk control (CRC) formula does not automatically repair the guarantee: when another component becomes larger, the selected component can switch and the loss can increase as the raw mask expands. This is a property of the output operation, independent of network retraining or probability calibration.
+
+We contribute a paired audit of these two mechanisms on fixed PraNet and Polyp-PVT predictions, a transparent comparison of two corrections and standard connected-filter controls, and an executable artifact containing per-image paths, split assignments, duplicate exclusions, and mathematical checks. The corrections apply established calibration and morphology principles; the contribution is their controlled study at the final-mask stage of polyp segmentation. We use the descriptive name \emph{component-persistence completion} for the running union of selected components. We do not claim a new general conformal theorem.
+
+\section{Related work and contribution boundary}
+CRC controls the expectation of bounded monotone losses and already includes a polyp-segmentation application~\cite{crc}. Its Corollary~1 explicitly handles nonmonotone losses by replacing each loss with a suffix supremum. That construction is our loss-envelope comparator, not an original result. Recent work studies stability-based nonmonotone calibration~\cite{nonmono}, conditional risk adaptation~\cite{cra}, and training for conformal efficiency~\cite{crt}. None of these establishes that a raw-mask guarantee is invariant to an uncalibrated pixel-deletion step.
+
+Morphological outer prediction sets and false-positive confidence masks have also been studied~\cite{morph,fp}. Connected operators, area filters, and component-tree representations are classical~\cite{connected}. We use fixed-marker reconstruction and area opening as established controls. Lu et al.~\cite{instance} construct confidence sets of alternative instance masks; their Appendix~H.1 already ensures nestedness after removing duplicate candidate masks in a CRC baseline. This is close conceptual precedent for preserving nestedness through postprocessing. Our setting differs in its output and loss: one binary polyp mask, LCC deletion of foreground pixels, and missed annotated area rather than the existence of a high-IoU alternative mask.
+
+PraNet supplies a published segmentation model~\cite{pranet}. Yeh et al.~\cite{crt} supply a processed benchmark and its original pretrained checkpoint. Our study changes no model parameters and does not compete for state-of-the-art Dice. It evaluates the composition of prediction, cleanup, and calibration. The targeted literature search did not identify the same LCC recall-transfer audit, but it cannot establish absolute priority or exclude unpublished work.
+
+\section{Final-mask recall and component persistence}
+\subsection{Setup and estimand}
+Let $\Omega$ be a finite rectangular pixel grid, $Y\subseteq\Omega$ a nonempty annotated foreground mask, and $s_x(p)\in[0,1]$ a fixed model score. Choose descending thresholds $t_0\ge\cdots\ge t_m=0$ independently of calibration labels and define
+\begin{equation}
+ C_j(x)=\{p:s_x(p)\ge t_j\},\qquad
+ L(M,Y)=1-\frac{|M\cap Y|}{|Y|}.
+ \label{eq:loss}
+\end{equation}
+The raw masks are nested, $C_j\subseteq C_{j+1}$, so their missed-area losses decrease. Each image contributes equally, regardless of its polyp area. Pixelwise pooled recall would define a different estimand. For empty annotation masks a separate background endpoint is required; the present public benchmark contains positive images only.
+
+For a fixed mask family with decreasing losses $L_i(j)\in[0,1]$, standard CRC selects
+\begin{equation}
+ \widehat j=\min\left\{j:\frac{\sum_{i=1}^{n}L_i(j)+1}{n+1}\le\alpha\right\}.
+ \label{eq:crc}
+\end{equation}
+Under exchangeability of the calibration images and a future image, with a fixed predictor and family, $\E L_{n+1}(\widehat j)\le\alpha$~\cite{crc}. The expectation includes calibration randomness. This is not a per-image recall guarantee, a confidence bound conditional on the realized calibration set, or a guarantee under source shift. The full-frame terminal mask has zero loss; all reported calibration sizes permit a passing terminal action.
+
+\subsection{Deletion and switching are different mechanisms}
+Write $D_j(x)=\LCC(C_j(x))$, with a fixed pixel adjacency and deterministic tie breaking. At any fixed threshold,
+\begin{equation}
+ L(D_j,Y)-L(C_j,Y)=\frac{|Y\cap(C_j\setminus D_j)|}{|Y|}\ge0.
+ \label{eq:deletion}
+\end{equation}
+Thus a bound on raw-mask risk transfers to cleaned masks only with an additional bound on the deleted true-positive fraction. An empirical calibration of the raw mask alone supplies no such bound.
+
+\begin{proposition}[Universal transfer and monotonicity]
+For a deterministic postprocessor $T$, $L(T(S),Y)\le L(S,Y)$ for every nonempty $Y$ if and only if $S\subseteq T(S)$. Also, $L(T(A),Y)\ge L(T(B),Y)$ for every nonempty $Y$ whenever $A\subseteq B$ if and only if $T$ is increasing under set inclusion.
+\end{proposition}
+\begin{proof}
+For the first claim, inclusion suffices. If $p\in S\setminus T(S)$, choose $Y=\{p\}$ to obtain losses zero and one. For the second, an increasing $T$ suffices. If $p\in T(A)\setminus T(B)$ for some $A\subseteq B$, the same singleton mask reverses the required loss inequality.
+\end{proof}
+These are universal statements over annotation sets, not claims that clinical annotations are single pixels. They identify which guarantees require recalibration or additional assumptions. A nontrivial anti-extensive filter cannot preserve every raw-mask recall bound automatically.
+
+LCC is anti-extensive but not increasing. Consider two disconnected foreground regions: a two-pixel region $A$ with score $0.9$ and a three-pixel region $B$ with score $0.8$. With $Y=A$, lowering the threshold from $0.9$ to $0.8$ changes the LCC output from $A$ to $B$, and the loss rises from zero to one. At threshold zero the grid is connected and loss returns to zero. The nonmonotone path is verified in the released tests. This removes the usual monotone-CRC justification for naive LCC recalibration; it does not prove that every finite dataset will exhibit risk above its target.
+
+\subsection{Two corrections and two classical controls}
+\paragraph{Component-persistence completion.}
+Define
+\begin{equation}
+ P_j(x)=\bigcup_{k=0}^{j}D_k(x).
+ \label{eq:prefix}
+\end{equation}
+This is nested and satisfies $D_j\subseteq P_j\subseteq C_j$. It retains every pixel previously displayed as part of a winning component. It may contain several disconnected components. We apply Eq.~\eqref{eq:crc} to $L(P_j,Y)$ using the same path at calibration and evaluation.
+
+\begin{proposition}[Minimal nested completion]
+Among all nested families $H_j$ satisfying $D_j\subseteq H_j$ at every grid index, $P_j$ is the pointwise smallest: $P_j\subseteq H_j$. Moreover, $P_j$ is the union of the selected raw components over the threshold prefix and is contained in the current raw mask.
+\end{proposition}
+\begin{proof}
+For $k\le j$, nesting implies $D_k\subseteq H_k\subseteq H_j$. Taking the union gives $P_j\subseteq H_j$. Since $D_k\subseteq C_k\subseteq C_j$, the union is contained in $C_j$.
+\end{proof}
+This minimality concerns set inclusion for a fixed threshold grid. It does not imply optimal expected area among all possible calibrated segmenters, or minimal area after different thresholds have been selected.
+
+\paragraph{Established loss-envelope calibration.}
+Keep the LCC output but calibrate the decreasing upper loss
+\begin{equation}
+ U_i(j)=\max_{k\ge j}L(D_k(X_i),Y_i).
+ \label{eq:envelope}
+\end{equation}
+This is exactly the finite-grid version of CRC Corollary~1~\cite{crc}. Because $L(D_j,Y)\le U(j)$, applying Eq.~\eqref{eq:crc} to $U$ controls expected final LCC loss under the same exchangeability assumptions. It preserves a single-component output at the cost of potentially relaxing the threshold. No labels are required to form evaluation outputs once the common threshold is calibrated.
+
+\paragraph{Increasing connected filters.}
+The anchor control retains the component containing a fixed maximum-score pixel, using the first raster position to break ties. The anchor is chosen from the score image once and does not change with the threshold. Components containing that marker can only grow or merge. The area-opening control retains every component with at least 64 pixels at each threshold. Any retained component remains inside a component at least as large at a later threshold. Both families are nested and admit standard CRC after calibration. Their morphology is established~\cite{connected}; neither universally preserves the risk of an already calibrated raw mask.
+
+\paragraph{Implementation.}
+The reference implementation labels all threshold masks directly, uses eight-connectivity, and accumulates a Boolean running union. For $G$ thresholds and $V$ pixels, this costs $O(GV)$ work per image and $O(V)$ mask memory when streamed, in addition to recorded statistics. An already selected operating threshold requires only its prefix for persistence. The envelope requires all calibration thresholds, but deployment evaluates one threshold and one LCC operation. Component-tree implementations~\cite{connected} could reduce repeated work; real-time hardware performance is not established here.
+
+\section{Experimental design}
+\subsection{Data, provenance, and independence}
+We use the processed test release from Yeh et al.~\cite{crt}, which contains Kvasir-SEG~\cite{kvasir}, CVC-ClinicDB~\cite{clinic}, CVC-ColonDB~\cite{colondb}, and ETIS-LaribPolypDB~\cite{etis}. The preparation notebook corrects mask-format issues and omits CVC-300 because it overlaps CVC-ColonDB. We retain the release's original train/test allocation. Before inference we hash decoded RGB pixels with their dimensions, discard any test image matching a training image, and retain only the first test instance of each hash in lexicographic path order. Identical images with different masks are therefore not counted as independent test units. Excluded filenames and reasons are released.
+\input{data_table.tex}
+Patient and sequence identifiers are unavailable in the evaluated release. Exact duplicate removal cannot establish patient separation, remove near-duplicate frames, or establish independence across sources. We interpret random splitting as an experiment on the finite image pool. The mathematical exchangeability result is stated separately from claims about future clinical populations.
+
+\subsection{Model and processing}
+We use the published PraNet-19 checkpoint without fitting or selection. A secondary architecture replication uses the released Polyp-PVT checkpoint~\cite{pvt}, with the sum of its two output logits as in the official testing implementation. Its redundant standalone-backbone initialization is removed before the complete checkpoint is strictly loaded; no learned parameter is changed. Input RGB images are resized to $352\times352$ using Pillow bilinear interpolation, mapped to $[0,1]$, and normalized with ImageNet mean and standard deviation. PraNet runs in evaluation mode with frozen running statistics. The final output is passed through the sigmoid directly, without per-image min--max normalization or fitted temperature. For Polyp-PVT, adaptive average pooling uses CPU evaluation because the MPS backend does not support its non-divisible pooling shapes; all remaining forward operations use MPS. Binary annotations are resized to the same grid by nearest neighbor. The evaluated endpoint is explicitly the resized annotation, rather than a native-resolution boundary metric. All source and weight hashes are recorded. Apple MPS inference is compared with CPU inference for the first three images.
+
+\subsection{Paired comparisons and statistics}
+An initial 257-point uniform probability grid caused the primary target to select a full-frame mask for every split. We preserve this pilot and amended the grid to resolve saturated scores: $t(u)=\operatorname{sigmoid}(10\operatorname{logit}(u))$, for 257 equally spaced $u$ values from one to zero, with exact endpoints. This is a fixed spacing rule, motivated by the temperature-10 scoring in the original CRC code, rather than temperature fitting. Rounding of the stored float32 sigmoid scores can affect extreme thresholds; no calibrated claim is attached to the score values themselves. Eight-neighbor adjacency and first-raster-label tie breaking are fixed. The initial exploratory protocol preceded prediction analysis; the documented grid amendment and addition of the transformer replication followed the degenerate pilot. Neither is described as preregistered. At $\alpha=0.10$, we compare raw CRC; raw CRC followed by LCC; naive LCC recalibration; CRC on the persistence completion; the established LCC loss envelope; anchor CRC; and area-opening CRC. Sensitivity targets are $0.05$ and $0.20$. The same 500 random unstratified half-pool splits (NumPy generator seed 20406) are used for every method and target. Calibration uses the smaller half and evaluation the larger half. Split assignments can be reconstructed exactly from the seed and released manifest.
+
+We report mean evaluation missed area, predicted area divided by frame area, Dice, and selected threshold. The spread across repeated splits describes partition sensitivity; it is not a confidence interval from 500 independent studies. The raw-versus-cleaned comparison uses paired outputs at the same calibrated threshold. We also count images whose LCC path is not nested and those whose annotated-area loss increases at any adjacent grid step. A supplementary descriptive analysis chooses a raw CRC threshold using the whole pool and bootstraps the per-image cleanup penalty (5,000 image resamples, seed 809). Its interval assumes image sampling and does not correct frame correlation; it is not held-out performance. Source-held-out analysis calibrates on the other three sources and evaluates the remaining source as a distribution-shift stress test.
+
+\section{Results}
+\input{results_text.tex}
+
+\section{Discussion}
+\subsection{What the audit changes in practice}
+The evaluated risk attaches to the mask family and calibration rule together. A software service that changes its component filtering after calibrating a raw mask changes the endpoint for which the guarantee was established. Equation~\eqref{eq:deletion} provides an exact audit quantity for this change. The recommended integration check is therefore specific: version the score preprocessing, threshold grid, connectivity, tie rule, and postprocessor alongside the calibration artifact, and evaluate the output actually returned by the service.
+
+The two corrections answer different product constraints. Persistence permits additional regions and prevents the disappearance of earlier winning pixels, with a minimality statement on the fixed grid. The established envelope retains one component and calibrates against future reversals of its loss path. The anchor and area-opening controls test whether ordinary increasing morphology is sufficient without carrying component history. Method selection should consider area, false positives, connectedness, and compute, rather than recall alone. Enlarging a mask can reduce missed area while worsening delineation utility. A full-frame mask always has zero missed-area loss and can be clinically unhelpful.
+
+\subsection{Commercial translation}
+The immediate application is a model-agnostic validation module for endoscopy segmentation vendors or research inference services: compare the calibrated intermediate output with the displayed final mask, quantify deleted annotated area, and rerun calibration when the pipeline changes. This is a technical product hypothesis supported by the existence of endoscopy AI systems~\cite{fda}, not a market-demand estimate. The study does not evaluate clinician workload, prospective detection, resection safety, revenue, or willingness to pay. A commercial implementation would need appropriate rights to model weights and data; the research-use conditions of PraNet and Kvasir-SEG do not become commercial permissions through this study. The released original audit code is separate from those upstream assets. We make no patentability claim for these elementary constructions.
+
+\subsection{Limitations and validation priorities}
+The experiment uses two published architectures with one checkpoint each. Repeated partitions are calibration-split sensitivity, not model-seed replication. Conclusions about the frequency or magnitude of cleanup effects may change with stronger modern segmenters. The exact set-theoretic mechanism, however, does not depend on architecture. The exploratory design does not constitute preregistration, and benchmarking several corrections does not establish that the best observed result will generalize to a new site.
+
+All images contain annotated foreground. We cannot evaluate false alarms on normal mucosa, patient-level detection, clinical lesion counts, or video persistence. The mask labels are reference annotations rather than error-free biological truth. Resizing can change small structures, and the finite threshold grid can miss component switches between grid points. Four-connectivity and a denser grid for PraNet examine selected implementation sensitivities but do not remove those limitations. Patient identifiers, prospective source-specific calibration, multiple contemporary segmenters, negative frames, and native-resolution assessment are priorities before deployment.
+
+\section{Conclusion}
+Largest-component filtering can delete true-positive polyp pixels from a recall-calibrated mask and can make an otherwise nested threshold path nonmonotone. These are distinct, testable pipeline properties. Calibration of the final procedure, with established loss envelopes or a nested mask construction, provides an explicit route to recover the standard expected-loss justification. The public benchmark quantifies the associated recall and area trade-offs; it does not establish a clinical safety or detection benefit.
+
+\paragraph{Data and code availability.}
+Original analysis code, experimental protocol, per-image sufficient statistics, reproducibility instructions, and manuscript source are available at \url{https://github.com/shi1720/polyp-component-persistence}. Images and weights are obtained from their original releases and are not redistributed. The artifact records checksums and the upstream revision.
+\paragraph{Funding and competing interests.}
+No external funding was received for this study. The author founded Siloed, an AI consultancy. No Siloed product is evaluated in this study.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\appendix
+\section{Finite-grid guarantee and implementation checks}
+For completeness, the finite-grid CRC argument can be stated without a continuity assumption. On $n+1$ exchangeable images define the symmetric full-data index $j^*$ as the first index with mean loss at most $\alpha$. For each omitted image $i$, the index $\widehat j_{-i}$ selected using Eq.~\eqref{eq:crc} is feasible for the full-data condition because the omitted loss is at most one. Hence $\widehat j_{-i}\ge j^*$. For decreasing losses,
+\[
+ \frac{1}{n+1}\sum_{i=1}^{n+1}L_i(\widehat j_{-i})
+ \le\frac{1}{n+1}\sum_{i=1}^{n+1}L_i(j^*)\le\alpha.
+\]
+Exchangeability gives the expected-loss bound for a future image. For the envelope procedure apply this argument to $U_i$ and then use $L(D_j,Y)\le U_i(j)$. This is a finite-grid specialization of established CRC~\cite{crc}. It does not justify naive LCC recalibration, whose loss need not decrease.
+
+The released test suite enumerates all $3^6=729$ score images on a $2\times3$ grid for both four- and eight-connectivity. It verifies nesting and containment for raw, persistence, anchor, and area-opening families and verifies the running-union definition exactly. A separate two-region example verifies loss sequence $(1,0,1,0)$ for LCC. Suffix-envelope values are compared with direct suffix maxima. Finally, an exact leave-one-out check tests the CRC inequality on 100 finite populations at three targets. These checks test the implementation and mathematical invariants; benchmark evidence comes from the public images.
+
+\section{Reproducibility details}
+\input{reproducibility.tex}
+\input{additional_results.tex}
+\end{document}

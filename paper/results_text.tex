@@ -1,0 +1,18 @@
+The primary transformed grid revealed nonnested LCC paths in 554/701 images (79.0\%) and adjacent increases in annotated-area loss in 497/701 (70.9\%; Table~\ref{tab:data}). The two quantities differ because deleted pixels need not intersect the reference annotation. Figure~\ref{fig:mechanism} isolates the mechanism in an exact synthetic example.
+
+\begin{figure}[htbp]\centering\includegraphics[width=.94\linewidth]{../figures/mechanism.pdf}\caption{A synthetic switch between two disconnected regions. Lowering the threshold adds pixels to the raw mask but replaces its largest component. The two-pixel reference annotation is then lost. The running union retains it. Colors distinguish annotated foreground from other selected pixels.}\label{fig:mechanism}\end{figure}
+
+\subsection{Cleanup after raw calibration}
+Across the shared splits, raw CRC attained mean missed area 9.36\%, whereas subsequent LCC cleanup increased it to 48.64\% (Table~\ref{tab:primary}). The paired increase was 39.29 percentage points. Cleanup removed more than 1\% of annotated area in a mean 45.42\% of evaluation images. The predicted frame area changed from 33.17\% to 23.89\%, a decrease in displayed area accompanied by a substantial recall cost. These are properties of the sampled images, not estimates of clinical polyp miss rate.
+
+At the descriptive full-pool calibrated threshold $t=5.7e-05$, the mean per-image cleanup penalty was 41.82 percentage points (image-bootstrap 95\% interval 38.31--45.39). In 336 images the penalty exceeded one percentage point. This threshold uses the entire pool and is not a held-out operating-point estimate.
+
+\input{primary_table.tex}
+\begin{figure}[htbp]\centering\includegraphics[width=\linewidth]{../figures/primary.pdf}\caption{PraNet evaluation at a 10\% target. Points are split-mean risks; horizontal lines show the central 95\% of risks across overlapping random splits. Bars report mean predicted frame area. The dashed line marks the target.}\label{fig:primary}\end{figure}
+
+\subsection{Recalibration and output constraints}
+Persistence CRC attained mean missed area 8.99\% with 39.43\% frame area. The established loss-envelope method attained 9.16\% with 92.54\% frame area while returning an LCC mask. Naive LCC recalibration attained 9.16\%; its empirical performance does not supply a general guarantee for nonmonotone paths. The anchor and area-opening controls attained 9.01\% and 9.35\%, respectively. Figure~\ref{fig:examples} shows two deliberately selected high-penalty cases, chosen by the largest cleanup penalty in distinct source datasets after excluding Kvasir images to avoid acquisition text in the display, rather than representative random images.
+
+\begin{figure}[htbp]\centering\includegraphics[width=\linewidth]{../figures/examples.pdf}\caption{Two high-penalty PraNet examples at the same descriptive full-pool threshold. Green denotes included annotated area, red missed annotated area, and blue selected background. The prefix union is evaluated at this same threshold for mechanism illustration; its independently calibrated operating point differs. These examples are selected by outcome and do not estimate effect frequency.}\label{fig:examples}\end{figure}
+
+\input{secondary_results.tex}
